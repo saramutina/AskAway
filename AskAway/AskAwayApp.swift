@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct AskAwayApp: App {
+    @State private var modelData = ModelData()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }
