@@ -8,26 +8,17 @@
 import SwiftUI
 
 struct QuestionView: View {
-    @EnvironmentObject var modelData: ModelData
+    var question: Question
     
     var body: some View {
-        VStack(alignment: .leading) {
-            HStack {
-                Text("Categories:")
-                ForEach(modelData.questions[1].categories) { category in
-                    Text("• \(category.rawValue) ")
-                }
-            }
-            .padding(.bottom)
-            .font(.caption)
-            Text(modelData.questions[1].text)
-        }
+        Text(question.text)
+            .font(.title)
+            .multilineTextAlignment(.center)
     }
 }
 
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
-        QuestionView()
-            .environmentObject(ModelData())
+        QuestionView(question: ModelData().categories[0].questions[0])
     }
 }

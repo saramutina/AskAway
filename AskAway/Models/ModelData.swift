@@ -8,7 +8,14 @@
 import Foundation
 
 class ModelData: ObservableObject {
-    var questions: [Question] = load("questions.json")
+    @Published var categories: [Category] = load("questionsByCategory.json")
+    
+    func getQuestions(for category: String) -> [Question] {
+        guard let foundCategory = categories.first(where: {$0.title.rawValue == category}) else {
+            fatalError("Couldn't find category \(category).")
+        }
+        return foundCategory.questions
+    }
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
