@@ -8,30 +8,46 @@
 import SwiftUI
 
 struct QuestionsView: View {
-    @EnvironmentObject var modelData: ModelData
     var category: Category
+    @State private var currentQuestionIndex = 0
+    
+    func changeToNextQuestion() {
+        currentQuestionIndex = currentQuestionIndex + 1 < category.questions.count ? currentQuestionIndex + 1 : 0
+    }
+    
+    func changeToPreviousQuestion() {
+        currentQuestionIndex = currentQuestionIndex - 1 >= 0 ? currentQuestionIndex - 1 : category.questions.count - 1
+    }
     
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 15)
-                .fill(category.theme.mainColor)
-            VStack(alignment: .leading) {
-                Text(category.title.rawValue)
-                    .padding(.bottom, 10)
-                QuestionView(question: category.questions[0])
-                
-//                Button(action: <#T##() -> Void#>, label: <#T##() -> View#>)
+        VStack {
+            Spacer()
+            QuestionView(category: category, question: category.questions[currentQuestionIndex])
+            
+            Spacer()
+            
+            HStack {
+                Button {
+                    changeToPreviousQuestion()
+                } label: {
+                    Image(systemName: "arrow.left")
+                }
+                .padding(.trailing, 40)
+                Button {
+                    changeToNextQuestion()
+                } label: {
+                    Image(systemName: "arrow.right")
+                }
+                .padding(.leading, 40)
             }
-            .padding()
+            .padding(.bottom)
+
         }
-        .fixedSize(horizontal: false, vertical: true)
-        .padding()
     }
 }
 
 struct QuestionsView_Previews: PreviewProvider {
     static var previews: some View {
         QuestionsView(category: ModelData().categories[0])
-            .environmentObject(ModelData())
     }
 }
