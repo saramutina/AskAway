@@ -22,7 +22,7 @@ struct QuestionsView: View {
     var body: some View {
         VStack {
             Spacer()
-            QuestionView(category: category, question: category.questions[currentQuestionIndex])
+            QuestionBubbbleView(category: category, question: category.questions[currentQuestionIndex])
             
             Spacer()
             

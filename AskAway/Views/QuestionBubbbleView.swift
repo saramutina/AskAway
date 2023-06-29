@@ -1,5 +1,5 @@
 //
-//  QuestionView.swift
+//  QuestionBubbbleView.swift
 //  AskAway
 //
 //  Created by Katie Saramutina on 20.06.2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct QuestionView: View {
+struct QuestionBubbbleView: View {
     var category: Category
     var question: Question
     
@@ -29,9 +29,9 @@ struct QuestionView: View {
     }
 }
 
-struct QuestionView_Previews: PreviewProvider {
+struct QuestionBubbleView_Previews: PreviewProvider {
     
     static var previews: some View {
-        QuestionView(category: ModelData().categories[0] , question: ModelData().categories[0].questions[0])
+        QuestionBubbbleView(category: ModelData().categories[0] , question: ModelData().categories[0].questions[0])
     }
 }

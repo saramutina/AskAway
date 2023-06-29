@@ -10,24 +10,24 @@ import SwiftUI
 struct CategoriesView: View {
     var categories: [Category]
     
-    var body: some View {
-        GeometryReader { geometry in
-            ScrollView {
-                HStack {
-                    ForEach(categories.prefix(3)) { category in
-                        NavigationLink(destination: {
-                            QuestionsView(category: category)
-                        }, label: {
-                            CategoryIcon(category: category)
-                        })
-                    }
-                }
-                .padding(.horizontal)
-                .frame(height: geometry.size.height *  0.2)
-            }
-        }
+    let columns = [
+        GridItem(.adaptive(minimum: 100))
+    ]
     
-        
+    var body: some View {
+        ScrollView {
+            LazyVGrid(columns: columns, spacing: 10) {
+                ForEach(categories) { category in
+                    NavigationLink(destination: {
+                        QuestionsView(category: category)
+                    }, label: {
+                        CategoryIcon(category: category)
+                            .frame(height: 150)
+                    })
+                }
+            }
+            .padding()
+        }
     }
 }
 
