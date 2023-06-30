@@ -9,13 +9,8 @@ import Foundation
 
 struct Category: Identifiable, Codable {
     var id: Int
-    var title: CategoryTitle
+    var title: String
     var questions: [Question]
     var theme: Theme
     var image: String
-    
-    enum CategoryTitle: String, CaseIterable, Codable {
-        case general = "General"
-        case yesOrNo = "Yes or No"
-    }
 }

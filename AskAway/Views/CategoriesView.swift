@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CategoriesView: View {
+    @EnvironmentObject var modelData: ModelData
     var categories: [Category]
     
     let columns = [
@@ -21,8 +22,7 @@ struct CategoriesView: View {
                     NavigationLink(destination: {
                         QuestionsView(category: category)
                     }, label: {
-                        CategoryIcon(category: category)
-                            .frame(height: 150)
+                        CategoryIconView(category: category)
                     })
                 }
             }
@@ -34,5 +34,6 @@ struct CategoriesView: View {
 struct CategoriesView_Previews: PreviewProvider {
     static var previews: some View {
         CategoriesView(categories: ModelData().categories)
+            .environmentObject(ModelData())
     }
 }

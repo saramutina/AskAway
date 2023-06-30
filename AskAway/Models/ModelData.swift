@@ -8,13 +8,21 @@
 import Foundation
 
 class ModelData: ObservableObject {
+    
     @Published var categories: [Category] = load("questionsByCategory.json")
     
-    func getQuestions(for category: String) -> [Question] {
-        guard let foundCategory = categories.first(where: {$0.title.rawValue == category}) else {
-            fatalError("Couldn't find category \(category).")
+    var allQuestions: [Question] {
+        var questions = [Question]()
+        for category in categories {
+            for question in category.questions {
+                questions.append(question)
+            }
         }
-        return foundCategory.questions
+        return questions
+    }
+    
+    var favoriteQuestions: [Question] {
+        allQuestions.filter { $0.isFavorite }
     }
 }
 
