@@ -9,17 +9,10 @@ import SwiftUI
 
 struct QuestionBubbbleView: View {
     @EnvironmentObject var modelData: ModelData
-    var category: Category
     var question: Question
     
-    var categoryIndex: Int {
-        return modelData.categories.firstIndex(where: {
-            $0.id == category.id
-        })!
-    }
-    
     var questionIndex: Int {
-        return modelData.categories[categoryIndex].questions.firstIndex(where: {
+        return modelData.questions.firstIndex(where: {
             $0.id == question.id
         })!
     }
@@ -27,12 +20,12 @@ struct QuestionBubbbleView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 15)
-                .fill(category.theme.mainColor)
+                .fill(question.category.color)
             VStack(alignment: .leading) {
                 HStack {
-                    Text(category.title)
+                    Text(question.category.rawValue)
                     Spacer()
-                    FavoriteButton(isSet: $modelData.categories[categoryIndex].questions[questionIndex].isFavorite)
+                    FavoriteButton(isSet: $modelData.questions[questionIndex].isFavorite)
                 }
                 .padding(.bottom, 10)
                 Text(question.text)
@@ -49,7 +42,7 @@ struct QuestionBubbbleView: View {
 struct QuestionBubbleView_Previews: PreviewProvider {
     
     static var previews: some View {
-        QuestionBubbbleView(category: ModelData().categories[0] , question: ModelData().categories[0].questions[0])
+        QuestionBubbbleView( question: ModelData().questions[0])
             .environmentObject(ModelData())
     }
 }

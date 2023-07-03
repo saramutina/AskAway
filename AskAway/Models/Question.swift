@@ -10,5 +10,6 @@ import Foundation
 struct Question: Identifiable, Codable {
     var id: Int
     var text: String
+    var category: Category
     var isFavorite: Bool
 }

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "text": "Have you ever been on TV?",
+        "category": "General",
+        "isFavorite": false
+    },
+    {
+        "id": 2,
+        "text": "What would you change about yourself if you could?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 3,
+        "text": "What's the emoji you use the most?",
+        "category": "General",
+        "isFavorite": false
+    },
+    {
+        "id": 4,
+        "text": "Would you sell you pet to a stranger for a million dollars?",
+        "category": "Yes or No",
+        "isFavorite": false
+    },
+    {
+        "id": 5,
+        "text": "What would you do if your parents didn’t like me?",
+        "category": "Date",
+        "isFavorite": false
+    },
+    {
+        "id": 6,
+        "text": "What are the best cheap eats around here?",
+        "category": "Small Talk",
+        "isFavorite": false
+    },
+    {
+        "id": 7,
+        "text": "If you could only watch one genre of movies for the rest of your life, what would it be?",
+        "category": "Small Talk",
+        "isFavorite": false
+    },
+    {
+        "id": 8,
+        "text": "Where did you live before this? What are the biggest differences you see?",
+        "category": "Small Talk",
+        "isFavorite": false
+    },
+    {
+        "id": 9,
+        "text": "What do you wish you had placed in a time capsule 15 years ago?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 10,
+        "text": "Have you ever thought of a cool invention or company, only to discover someone had already invented or started it?",
+        "category": "Yes or No",
+        "isFavorite": false
+    }
+]

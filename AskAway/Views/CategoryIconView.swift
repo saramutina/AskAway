@@ -8,21 +8,24 @@
 import SwiftUI
 
 struct CategoryIconView: View {
-    var category: Category
+    var categoryName: String
+    var category: Category {
+        Category(rawValue: categoryName)!
+    }
     
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 8)
-                .fill(category.theme.mainColor)
+                .fill(category.color)
             VStack {
                 Spacer()
-                Image(systemName: category.image)
+                Image(systemName: category.imageName)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding()
                     .foregroundColor(Color.primary)
                 Spacer()
-                Text(category.title)
+                Text(category.rawValue)
                     .padding()
             }
             .foregroundColor(Color.primary)
@@ -33,6 +36,6 @@ struct CategoryIconView: View {
 
 struct CategoryIconView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryIconView(category: ModelData().categories[0])
+        CategoryIconView(categoryName: ModelData().questions[0].category.rawValue)
     }
 }

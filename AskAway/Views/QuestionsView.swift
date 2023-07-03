@@ -8,21 +8,30 @@
 import SwiftUI
 
 struct QuestionsView: View {
-    var category: Category
+    @EnvironmentObject var modelData: ModelData
+    var categoryName: String
+    
     @State private var currentQuestionIndex = 0
     
+    var category: Category {
+        Category(rawValue: categoryName)!
+    }
+    var questions: [Question] {
+        modelData.questions(for: categoryName)
+    }
+    
     func changeToNextQuestion() {
-        currentQuestionIndex = currentQuestionIndex + 1 < category.questions.count ? currentQuestionIndex + 1 : 0
+        currentQuestionIndex = currentQuestionIndex + 1 < questions.count ? currentQuestionIndex + 1 : 0
     }
     
     func changeToPreviousQuestion() {
-        currentQuestionIndex = currentQuestionIndex - 1 >= 0 ? currentQuestionIndex - 1 : category.questions.count - 1
+        currentQuestionIndex = currentQuestionIndex - 1 >= 0 ? currentQuestionIndex - 1 : questions.count - 1
     }
     
     var body: some View {
         VStack {
             Spacer()
-            QuestionBubbbleView(category: category, question: category.questions[currentQuestionIndex])
+            QuestionBubbbleView(question: questions[currentQuestionIndex])
             
             Spacer()
             
@@ -48,6 +57,7 @@ struct QuestionsView: View {
 
 struct QuestionsView_Previews: PreviewProvider {
     static var previews: some View {
-        QuestionsView(category: ModelData().categories[0])
+        QuestionsView(categoryName: "Date")
+            .environmentObject(ModelData())
     }
 }

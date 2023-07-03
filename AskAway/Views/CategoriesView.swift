@@ -9,7 +9,6 @@ import SwiftUI
 
 struct CategoriesView: View {
     @EnvironmentObject var modelData: ModelData
-    var categories: [Category]
     
     let columns = [
         GridItem(.adaptive(minimum: 100))
@@ -18,12 +17,14 @@ struct CategoriesView: View {
     var body: some View {
         ScrollView {
             LazyVGrid(columns: columns, spacing: 10) {
-                ForEach(categories) { category in
-                    NavigationLink(destination: {
-                        QuestionsView(category: category)
-                    }, label: {
-                        CategoryIconView(category: category)
-                    })
+                ForEach(modelData.categoriesDictionary.keys.sorted(), id: \.self) { categoryName in
+                    if !modelData.questions(for: categoryName).isEmpty {
+                        NavigationLink(destination: {
+                            QuestionsView(categoryName: categoryName)
+                        }, label: {
+                            CategoryIconView(categoryName: categoryName)
+                        })
+                    }
                 }
             }
             .padding()
@@ -33,7 +34,7 @@ struct CategoriesView: View {
 
 struct CategoriesView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoriesView(categories: ModelData().categories)
+        CategoriesView()
             .environmentObject(ModelData())
     }
 }

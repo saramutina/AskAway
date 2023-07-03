@@ -9,20 +9,23 @@ import Foundation
 
 class ModelData: ObservableObject {
     
-    @Published var categories: [Category] = load("questionsByCategory.json")
+    @Published var questions: [Question] = load("questions.json")
     
-    var allQuestions: [Question] {
-        var questions = [Question]()
-        for category in categories {
-            for question in category.questions {
-                questions.append(question)
-            }
-        }
-        return questions
+    var categoriesDictionary: [String: [Question]] {
+        Dictionary(
+            grouping: questions,
+            by: { $0.category.rawValue }
+        )
+    }
+    
+    func questions(for categoryName: String) -> [Question] {
+        return questions.filter({
+            $0.category.rawValue == categoryName
+        })
     }
     
     var favoriteQuestions: [Question] {
-        allQuestions.filter { $0.isFavorite }
+        questions.filter { $0.isFavorite }
     }
 }
 
