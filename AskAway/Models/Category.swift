@@ -14,6 +14,7 @@ enum Category: String, CaseIterable, Codable {
     case yesOrNo = "Yes or No"
     case smallTalk = "Small Talk"
     case deep = "Deep"
+    case favorites = "Favorites"
     
     var color: Color {
         switch self {
@@ -27,6 +28,8 @@ enum Category: String, CaseIterable, Codable {
             return Color("green")
         case .yesOrNo:
             return Color("aqua")
+        case .favorites:
+            return Color(.systemYellow)
         }
     }
     
@@ -42,6 +45,8 @@ enum Category: String, CaseIterable, Codable {
             return "cloud.sun.rain"
         case .yesOrNo:
             return "plus.forwardslash.minus"
+        case .favorites:
+            return "star.fill"
         }
     }
 }

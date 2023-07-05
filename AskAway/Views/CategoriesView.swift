@@ -31,6 +31,13 @@ struct CategoriesView: View {
                         })
                     }
                 }
+                if !modelData.favoriteQuestions.isEmpty {
+                    NavigationLink(destination: {
+                        QuestionsView(categoryName: "Favorites")
+                    }, label: {
+                        CategoryIconView(categoryName: "Favorites")
+                    })
+                }
             }
             .padding(.horizontal)
         }

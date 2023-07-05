@@ -16,8 +16,10 @@ struct QuestionsView: View {
     var questions: [Question] {
         if categoryName == "all" {
             return modelData.questions.shuffled()
+        } else if categoryName == "Favorites" {
+            return modelData.favoriteQuestions
         } else {
-            return modelData.questions(for: categoryName).shuffled()
+            return modelData.questions(for: categoryName)
         }
     }
     
@@ -30,28 +32,31 @@ struct QuestionsView: View {
     }
     
     var body: some View {
-        VStack {
-            Spacer()
-            QuestionBubbbleView(question: questions[currentQuestionIndex])
-            
-            Spacer()
-            
-            HStack {
-                Button {
-                    changeToPreviousQuestion()
-                } label: {
-                    Image(systemName: "arrow.left")
+        if !questions.isEmpty {
+            VStack {
+                Spacer()
+                QuestionBubbbleView(question: questions[currentQuestionIndex])
+                Spacer()
+                
+                HStack {
+                    Button {
+                        changeToPreviousQuestion()
+                    } label: {
+                        Image(systemName: "arrow.left")
+                    }
+                    .padding(.trailing, 40)
+                    Button {
+                        changeToNextQuestion()
+                    } label: {
+                        Image(systemName: "arrow.right")
+                    }
+                    .padding(.leading, 40)
                 }
-                .padding(.trailing, 40)
-                Button {
-                    changeToNextQuestion()
-                } label: {
-                    Image(systemName: "arrow.right")
-                }
-                .padding(.leading, 40)
-            }
-            .padding(.bottom)
+                .padding(.bottom)
 
+            }
+        } else {
+            EmptyView()
         }
     }
 }
