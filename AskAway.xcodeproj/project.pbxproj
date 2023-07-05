@@ -20,6 +20,7 @@
 		375BF3A62A421A010004FBFC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BF3A52A421A010004FBFC /* ModelData.swift */; };
 		37CFB1282A4F30DC0077449C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1272A4F30DC0077449C /* FavoriteButton.swift */; };
 		37CFB1312A5359ED0077449C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1302A5359ED0077449C /* Category.swift */; };
+		37CFB1332A5475B50077449C /* ShuffleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1322A5475B50077449C /* ShuffleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		375BF3A52A421A010004FBFC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		37CFB1272A4F30DC0077449C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		37CFB1302A5359ED0077449C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		37CFB1322A5475B50077449C /* ShuffleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				37373C3E2A4B3D3C00F547D2 /* CategoriesView.swift */,
 				37373C402A4B3D7600F547D2 /* CategoryIconView.swift */,
 				37CFB1272A4F30DC0077449C /* FavoriteButton.swift */,
+				37CFB1322A5475B50077449C /* ShuffleButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				37229B072A4B038A00CC6904 /* QuestionsView.swift in Sources */,
 				375BF3A62A421A010004FBFC /* ModelData.swift in Sources */,
 				37373C3F2A4B3D3C00F547D2 /* CategoriesView.swift in Sources */,
+				37CFB1332A5475B50077449C /* ShuffleButton.swift in Sources */,
 				375BF3912A4214750004FBFC /* ContentView.swift in Sources */,
 				375BF38F2A4214750004FBFC /* AskAwayApp.swift in Sources */,
 				37CFB1282A4F30DC0077449C /* FavoriteButton.swift in Sources */,

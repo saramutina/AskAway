@@ -13,11 +13,12 @@ struct QuestionsView: View {
     
     @State private var currentQuestionIndex = 0
     
-    var category: Category {
-        Category(rawValue: categoryName)!
-    }
     var questions: [Question] {
-        modelData.questions(for: categoryName)
+        if categoryName == "all" {
+            return modelData.questions.shuffled()
+        } else {
+            return modelData.questions(for: categoryName).shuffled()
+        }
     }
     
     func changeToNextQuestion() {

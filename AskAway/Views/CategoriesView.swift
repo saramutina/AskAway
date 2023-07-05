@@ -16,7 +16,12 @@ struct CategoriesView: View {
     
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: columns, spacing: 10) {
+            NavigationLink(destination: {
+                QuestionsView(categoryName: "all")
+            }, label: {
+                ShuffleButton()
+            })
+            LazyVGrid(columns: columns, spacing: 8) {
                 ForEach(modelData.categoriesDictionary.keys.sorted(), id: \.self) { categoryName in
                     if !modelData.questions(for: categoryName).isEmpty {
                         NavigationLink(destination: {
@@ -27,7 +32,7 @@ struct CategoriesView: View {
                     }
                 }
             }
-            .padding()
+            .padding(.horizontal)
         }
     }
 }
