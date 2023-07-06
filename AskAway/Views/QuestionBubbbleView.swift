@@ -11,12 +11,6 @@ struct QuestionBubbbleView: View {
     @EnvironmentObject var modelData: ModelData
     var question: Question
     
-    var questionIndex: Int {
-        return modelData.questions.firstIndex(where: {
-            $0.id == question.id
-        })!
-    }
-    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 15)
@@ -25,7 +19,7 @@ struct QuestionBubbbleView: View {
                 HStack {
                     Text(question.category.rawValue)
                     Spacer()
-                    FavoriteButton(isSet: $modelData.questions[questionIndex].isFavorite)
+                    FavoriteButton(isSet: $modelData.questions.first(where: { $0.id == question.id})!.isFavorite)
                 }
                 .padding(.bottom, 10)
                 Text(question.text)

@@ -18,16 +18,19 @@ struct CategoriesView: View {
         ScrollView {
             NavigationLink(destination: {
                 QuestionsView(categoryName: "all")
+                    .onDisappear {
+                        modelData.shuffledQuestions = []
+                    }
             }, label: {
                 ShuffleButton()
             })
             LazyVGrid(columns: columns, spacing: 8) {
-                ForEach(modelData.categoriesDictionary.keys.sorted(), id: \.self) { categoryName in
-                    if !modelData.questions(for: categoryName).isEmpty {
+                ForEach(modelData.categoriesDictionary.sorted(by: {$0.key.id < $1.key.id}), id: \.key) { category, questions in
+                    if !modelData.questions(for: category.rawValue).isEmpty {
                         NavigationLink(destination: {
-                            QuestionsView(categoryName: categoryName)
+                            QuestionsView(categoryName: category.rawValue)
                         }, label: {
-                            CategoryIconView(categoryName: categoryName)
+                            CategoryIconView(categoryName: category.rawValue)
                         })
                     }
                 }

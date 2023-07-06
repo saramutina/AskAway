@@ -10,11 +10,16 @@ import Foundation
 class ModelData: ObservableObject {
     
     @Published var questions: [Question] = load("questions.json")
+    @Published var shuffledQuestions = [Question]()
     
-    var categoriesDictionary: [String: [Question]] {
+    var favoriteQuestions: [Question] {
+        questions.filter { $0.isFavorite }
+    }
+    
+    var categoriesDictionary: Dictionary<Category, [Question]> {
         Dictionary(
             grouping: questions,
-            by: { $0.category.rawValue }
+            by: { $0.category }
         )
     }
     
@@ -24,9 +29,11 @@ class ModelData: ObservableObject {
         })
     }
     
-    var favoriteQuestions: [Question] {
-        questions.filter { $0.isFavorite }
+    func shuffleQuestions() {
+        shuffledQuestions = questions.shuffled()
     }
+    
+    
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
