@@ -32,8 +32,6 @@ class ModelData: ObservableObject {
     func shuffleQuestions() {
         shuffledQuestions = questions.shuffled()
     }
-    
-    
 }
 
 func load<T: Decodable>(_ filename: String) -> T {

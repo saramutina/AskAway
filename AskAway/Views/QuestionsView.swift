@@ -26,20 +26,33 @@ struct QuestionsView: View {
         }
     }
     
+    var question: Question {
+        if questions.indices.contains(currentQuestionIndex) {
+            return questions[currentQuestionIndex]
+        } else {
+            let newIndex = questions.count - 1
+            return questions[newIndex]
+        }
+    }
+    
     func changeToNextQuestion() {
         currentQuestionIndex = currentQuestionIndex + 1 < questions.count ? currentQuestionIndex + 1 : 0
     }
 
     func changeToPreviousQuestion() {
+        if currentQuestionIndex + 1 > questions.count {
+            currentQuestionIndex = questions.count - 1
+        }
         currentQuestionIndex = currentQuestionIndex - 1 >= 0 ? currentQuestionIndex - 1 : questions.count - 1
     }
+
     
     var body: some View {
         if !questions.isEmpty {
             VStack {
                 Spacer()
-
-                    QuestionBubbbleView(question: questions[currentQuestionIndex])
+                
+                QuestionBubbbleView(question: question)
                 
                 Spacer()
                 
@@ -50,7 +63,7 @@ struct QuestionsView: View {
                         Image(systemName: "arrow.left")
                     }
                     .padding(.trailing, 40)
-                    Text("\(currentQuestionIndex + 1) / \(questions.count)")
+                    QuestionsCountTextView
                     Button {
                         changeToNextQuestion()
                     } label: {
@@ -65,7 +78,16 @@ struct QuestionsView: View {
             EmptyView()
         }
     }
-
+    
+    private var QuestionsCountTextView: some View {
+        if questions.indices.contains(currentQuestionIndex) {
+            return Text("\(currentQuestionIndex + 1) / \(questions.count)")
+        } else {
+            let newIndex = questions.count
+            return Text("\(newIndex) / \(questions.count)")
+        }
+    }
+    
 }
 
 struct QuestionsView_Previews: PreviewProvider {

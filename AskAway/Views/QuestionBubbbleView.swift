@@ -34,7 +34,6 @@ struct QuestionBubbbleView: View {
 }
 
 struct QuestionBubbleView_Previews: PreviewProvider {
-    
     static var previews: some View {
         QuestionBubbbleView( question: ModelData().questions[0])
             .environmentObject(ModelData())
