@@ -26,7 +26,9 @@ struct CategoryIconView: View {
                     .foregroundColor(Color.primary)
                 Spacer()
                 Text(category.rawValue)
-                    .padding()
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .padding(7)
             }
             .foregroundColor(Color.primary)
         }

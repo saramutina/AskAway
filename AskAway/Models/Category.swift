@@ -9,24 +9,24 @@ import Foundation
 import SwiftUI
 
 enum Category: String, CaseIterable, Codable, Identifiable {
-    case general = "General"
-    case date = "Date"
+    case gettingToKnow = "Getting to Know You"
     case deep = "Deep"
-    case smallTalk = "Small Talk"
-    case yesOrNo = "Yes or No"
+    case couples = "Couples"
+    case groupOfFriends = "Group of Friends"
+    case neverHaveIEver = "Never Have I Ever"
     case favorites = "Favorites"
     
     var color: Color {
         switch self {
-        case .general:
+        case .gettingToKnow:
             return Color("orange")
-        case .date:
-            return Color("peach")
         case .deep:
             return Color("purple")
-        case .smallTalk:
+        case .couples:
+            return Color("peach")
+        case .groupOfFriends:
             return Color("green")
-        case .yesOrNo:
+        case .neverHaveIEver:
             return Color("aqua")
         case .favorites:
             return Color(.systemYellow)
@@ -35,15 +35,15 @@ enum Category: String, CaseIterable, Codable, Identifiable {
     
     var imageName: String {
         switch self {
-        case .general:
+        case .gettingToKnow:
             return "person.line.dotted.person.fill"
-        case .date:
-            return "heart"
         case .deep:
             return "brain.head.profile"
-        case .smallTalk:
+        case .couples:
+            return "heart"
+        case .groupOfFriends:
             return "cloud.sun.rain"
-        case .yesOrNo:
+        case .neverHaveIEver:
             return "plus.forwardslash.minus"
         case .favorites:
             return "star.fill"
@@ -52,15 +52,15 @@ enum Category: String, CaseIterable, Codable, Identifiable {
     
     var id: Int {
         switch self {
-        case .general:
+        case .gettingToKnow:
             return 1
-        case .date:
-            return 2
         case .deep:
+            return 2
+        case .couples:
             return 3
-        case .smallTalk:
+        case .groupOfFriends:
             return 4
-        case .yesOrNo:
+        case .neverHaveIEver:
             return 5
         case .favorites:
             return 100

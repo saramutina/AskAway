@@ -1,62 +1,578 @@
 [
     {
-        "id": 1,
-        "text": "Have you ever been on TV?",
-        "category": "General",
+        "id": 1001,
+        "text": "What’s your favorite way to spend a day off?",
+        "category": "Getting to Know You",
         "isFavorite": false
     },
     {
-        "id": 2,
-        "text": "What would you change about yourself if you could?",
+        "id": 1002,
+        "text": "Would you say you’re more of an extrovert or an introvert?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1003,
+        "text": "If you could only eat one food for the rest of your life, what would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1004,
+        "text": "What's your favorite season and why?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1005,
+        "text": "What part of your day/week are you always looking forward to?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1006,
+        "text": "If you could have a superpower, which one would you like to have?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1007,
+        "text": "What is your guilty pleasure?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1008,
+        "text": "What was your favorite thing to do as a child?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1009,
+        "text": "Have you ever collected anything? What was/is that?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1010,
+        "text": "Would you rather live in a cold or a hot climate?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1011,
+        "text": "How many languages do you speak? Would you like to learn any new ones?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1012,
+        "text": "What color best describes your personality?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1013,
+        "text": "Do you consider yourself a creative person? Why or why not?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1014,
+        "text": "Are you a cat person or a dog person?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1015,
+        "text": "What app on your phone do you use the most?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1016,
+        "text": "What was you favorite subject at school?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1017,
+        "text": "If you had a one-way time machine in what time would you go to?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1018,
+        "text": "What's your main hobby right now?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1019,
+        "text": "When having an oral exam, would you rather go first or last?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1020,
+        "text": "What's one thing that can instantly make your day better?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1021,
+        "text": "What is your favorite content type (books, movies, series, music, games etc.)?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1022,
+        "text": "If you had enough money to start your own business right now, would you do it? What business would that be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1023,
+        "text": "If you could spend a day in anyone's body, but only as an observer, who would you choose?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1024,
+        "text": "Which meal is your favorite: breakfast, lunch, or dinner?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1025,
+        "text": "Do you believe in aliens?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1026,
+        "text": "What is your go-to social media right now?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1027,
+        "text": "What style of interior design is your favorite?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1028,
+        "text": "How do you enjoy spending your alone time?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1029,
+        "text": "What is your dream place to spend vacation at?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1030,
+        "text": "What movie or show you can keep rewatching?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1031,
+        "text": "Do you have any pets? If so, what are they? If not, do you want any?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1032,
+        "text": "What is your favorite season and weather?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1033,
+        "text": "What in your life are you most passionate about right now? Something that you can talk about for hours.",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1034,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1035,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1036,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1037,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1038,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1039,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1040,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1041,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1042,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1043,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1044,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1045,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1046,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1047,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1048,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1049,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1050,
+        "text": "",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 2001,
+        "text": "What is your biggest dream right now?",
         "category": "Deep",
         "isFavorite": false
     },
     {
-        "id": 3,
-        "text": "What's the emoji you use the most?",
-        "category": "General",
-        "isFavorite": false
-    },
-    {
-        "id": 4,
-        "text": "Would you sell you pet to a stranger for a million dollars?",
-        "category": "Yes or No",
-        "isFavorite": false
-    },
-    {
-        "id": 5,
-        "text": "What would you do if your parents didn’t like me?",
-        "category": "Date",
-        "isFavorite": false
-    },
-    {
-        "id": 6,
-        "text": "What are the best cheap eats around here?",
-        "category": "Small Talk",
-        "isFavorite": false
-    },
-    {
-        "id": 7,
-        "text": "If you could only watch one genre of movies for the rest of your life, what would it be?",
-        "category": "Small Talk",
-        "isFavorite": false
-    },
-    {
-        "id": 8,
-        "text": "Where did you live before this? What are the biggest differences you see?",
-        "category": "Small Talk",
-        "isFavorite": false
-    },
-    {
-        "id": 9,
-        "text": "What do you wish you had placed in a time capsule 15 years ago?",
+        "id": 2002,
+        "text": "Is there something that you really want to do, but something is stopping you? What is it? What is stopping you?",
         "category": "Deep",
         "isFavorite": false
     },
     {
-        "id": 10,
-        "text": "Have you ever thought of a cool invention or company, only to discover someone had already invented or started it?",
-        "category": "Yes or No",
+        "id": 2003,
+        "text": "What type of people you could never be friends with?",
+        "category": "Deep",
         "isFavorite": false
-    }
+    },
+    {
+        "id": 2004,
+        "text": "What’s been on your heart and mind recently?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2005,
+        "text": "What are you most proud of about yourself?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2006,
+        "text": "Is there something in particular that you are hoping to accomplish in the future? What is it?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2007,
+        "text": "Who are you most like in your family? In what ways?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2008,
+        "text": "How do you feel about your childhood? What would you change about it if you could?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2009,
+        "text": "If you didn't have to care about money at all, what would you do day-to-day?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2010,
+        "text": "If you had a very dificult time in your life, who is the fisrt person you would go to for help?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2011,
+        "text": "Do you believe in some kind of higher power? Have you ever prayed to it?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2012,
+        "text": "What’s something you’ve done that you still feel guilty about to this day?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2013,
+        "text": "Do you believe in afterlife?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2014,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2015,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2016,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2017,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2018,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2019,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2020,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2021,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2022,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2023,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2024,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2025,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2026,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2027,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2028,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2029,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2030,
+        "text": "",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 3001,
+        "text": "If we could do watever you want for a day, how would we spend the day?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3002,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3003,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3004,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3005,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3006,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3007,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3008,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3009,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3010,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3011,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3012,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3013,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3014,
+        "text": "",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 4001,
+        "text": "",
+        "category": "Group of Friends",
+        "isFavorite": false
+    },
+    {
+        "id": 5001,
+        "text": "",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
 ]
