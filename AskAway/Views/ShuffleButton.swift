@@ -11,7 +11,8 @@ struct ShuffleButton: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 8)
-                .fill(Color(.gray))
+                .fill(Color("dustyBlue"))
+                .shadow(radius: 2, x: -3, y: 3)
             Image(systemName: "shuffle")
                 .resizable()
                 .aspectRatio(contentMode: .fit)

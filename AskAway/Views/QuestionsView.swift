@@ -74,8 +74,10 @@ struct QuestionsView: View {
                 .padding(.bottom)
 
             }
+            .background(Color("background"))
         } else {
             EmptyView()
+                .background(Color("background"))
         }
     }
     

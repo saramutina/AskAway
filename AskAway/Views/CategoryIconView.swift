@@ -17,6 +17,7 @@ struct CategoryIconView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 8)
                 .fill(category.color)
+                .shadow(radius: 2, x: -3, y: 3)
             VStack {
                 Spacer()
                 Image(systemName: category.imageName)

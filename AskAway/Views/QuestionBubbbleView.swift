@@ -15,6 +15,7 @@ struct QuestionBubbbleView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 15)
                 .fill(question.category.color)
+                .shadow(radius: 2, x: -3, y: 3)
             VStack(alignment: .center) {
                 HStack {
                     Text(question.category.rawValue)

@@ -19,17 +19,17 @@ enum Category: String, CaseIterable, Codable, Identifiable {
     var color: Color {
         switch self {
         case .gettingToKnow:
-            return Color("orange")
+            return Color("green")
         case .deep:
             return Color("purple")
         case .couples:
-            return Color("peach")
+            return Color("pink")
         case .groupOfFriends:
-            return Color("green")
+            return Color("olive")
         case .neverHaveIEver:
-            return Color("aqua")
+            return Color("blue")
         case .favorites:
-            return Color(.systemYellow)
+            return Color("yellow")
         }
     }
     
@@ -46,7 +46,7 @@ enum Category: String, CaseIterable, Codable, Identifiable {
         case .neverHaveIEver:
             return "plus.forwardslash.minus"
         case .favorites:
-            return "star.fill"
+            return "star"
         }
     }
     

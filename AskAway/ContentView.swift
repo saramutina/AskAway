@@ -13,6 +13,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             CategoriesView()
+                .background(Color("background"))
         }
     }
 }
