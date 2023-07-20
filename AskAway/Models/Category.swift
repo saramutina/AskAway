@@ -12,7 +12,7 @@ enum Category: String, CaseIterable, Codable, Identifiable {
     case gettingToKnow = "Getting to Know You"
     case deep = "Deep"
     case couples = "Couples"
-    case groupOfFriends = "Group of Friends"
+    case whouldYouRather = "Would You Rather"
     case neverHaveIEver = "Never Have I Ever"
     case favorites = "Favorites"
     
@@ -24,7 +24,7 @@ enum Category: String, CaseIterable, Codable, Identifiable {
             return Color("purple")
         case .couples:
             return Color("pink")
-        case .groupOfFriends:
+        case .whouldYouRather:
             return Color("olive")
         case .neverHaveIEver:
             return Color("blue")
@@ -36,13 +36,13 @@ enum Category: String, CaseIterable, Codable, Identifiable {
     var imageName: String {
         switch self {
         case .gettingToKnow:
-            return "person.line.dotted.person.fill"
+            return "person.2"
         case .deep:
             return "brain.head.profile"
         case .couples:
             return "heart"
-        case .groupOfFriends:
-            return "cloud.sun.rain"
+        case .whouldYouRather:
+            return "person.3"
         case .neverHaveIEver:
             return "plus.forwardslash.minus"
         case .favorites:
@@ -58,7 +58,7 @@ enum Category: String, CaseIterable, Codable, Identifiable {
             return 2
         case .couples:
             return 3
-        case .groupOfFriends:
+        case .whouldYouRather:
             return 4
         case .neverHaveIEver:
             return 5
