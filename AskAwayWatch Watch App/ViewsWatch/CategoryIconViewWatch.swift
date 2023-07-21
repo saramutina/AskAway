@@ -23,15 +23,18 @@ struct CategoryIconViewWatch: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding()
+                    .frame(width: 50, height: 50)
                 Spacer()
                 Text(category.rawValue)
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
                     .padding(7)
+                    .frame(maxHeight: .infinity)
             }
             .foregroundColor(Color("primary"))
         }
-        .frame(height: 70)
+        .frame(maxHeight: .infinity)
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 
