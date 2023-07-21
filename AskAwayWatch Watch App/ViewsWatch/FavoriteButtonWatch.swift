@@ -1,13 +1,13 @@
 //
-//  FavoriteButton.swift
-//  AskAway
+//  FavoriteButtonWatch.swift
+//  AskAwayWatch Watch App
 //
-//  Created by Katie Saramutina on 30.06.2023.
+//  Created by Katie Saramutina on 21.07.2023.
 //
 
 import SwiftUI
 
-struct FavoriteButton: View {
+struct FavoriteButtonWatch: View {
     @EnvironmentObject var modelData: ModelData
     @Binding var isSet: Bool
     
@@ -21,15 +21,17 @@ struct FavoriteButton: View {
                 .labelStyle(.iconOnly)
                 .foregroundColor(isSet ? Color("favorite") : .gray)
         }
+        .frame(width: 20)
+        .buttonStyle(.plain)
     }
 }
 
-struct FavoriteButton_Previews: PreviewProvider {
+struct FavoriteButtonWatch_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            FavoriteButton(isSet: .constant(true))
+            FavoriteButtonWatch(isSet: .constant(true))
                 .previewDisplayName("Star - favorite")
-            FavoriteButton(isSet: .constant(false))
+            FavoriteButtonWatch(isSet: .constant(false))
                 .previewDisplayName("Star - not favorite")
         }
         .environmentObject(ModelData())

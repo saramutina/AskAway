@@ -22,8 +22,7 @@ struct QuestionBubbbleViewWatch: View {
                         Text(question.category.rawValue)
                             .font(.footnote)
                         Spacer()
-                        FavoriteButton(isSet: $modelData.questions.first(where: { $0.id == question.id})!.isFavorite)
-                            .frame(width: 20)
+                        FavoriteButtonWatch(isSet: $modelData.questions.first(where: { $0.id == question.id})!.isFavorite)
                     }
                     .frame(height: 20)
                     .padding(.bottom, 5)
