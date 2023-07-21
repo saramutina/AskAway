@@ -1,13 +1,13 @@
 //
-//  QuestionsView.swift
-//  AskAway
+//  QuestionsViewWatch.swift
+//  AskAwayWatch Watch App
 //
-//  Created by Katie Saramutina on 27.06.2023.
+//  Created by Katie Saramutina on 21.07.2023.
 //
 
 import SwiftUI
 
-struct QuestionsView: View {
+struct QuestionsViewWatch: View {
     @EnvironmentObject var modelData: ModelData
     var categoryName: String
     
@@ -50,34 +50,29 @@ struct QuestionsView: View {
     var body: some View {
         if !questions.isEmpty {
             VStack {
-                Spacer()
-                
-                QuestionBubbbleView(question: question)
-                
-                Spacer()
-                
+                QuestionBubbbleViewWatch(question: question)
                 HStack {
                     Button {
                         changeToPreviousQuestion()
                     } label: {
                         Image(systemName: "arrow.left")
                     }
-                    .padding(.trailing, 40)
+                    .padding(.trailing, 10)
                     QuestionsCountTextView
                     Button {
                         changeToNextQuestion()
                     } label: {
                         Image(systemName: "arrow.right")
                     }
-                    .padding(.leading, 40)
+                    .padding(.leading, 10)
                 }
-                .padding(.bottom)
-
+                .foregroundColor(Color.primary)
+                .frame(height: 5)
+                .padding(5)
+                .buttonStyle(.plain)
             }
-            .background(Color("background"))
         } else {
             EmptyView()
-                .background(Color("background"))
         }
     }
     
@@ -89,12 +84,12 @@ struct QuestionsView: View {
             return Text("\(newIndex) / \(questions.count)")
         }
     }
-    
 }
 
-struct QuestionsView_Previews: PreviewProvider {
+struct QuestionsViewWatch_Previews: PreviewProvider {
+    
     static var previews: some View {
-        QuestionsView(categoryName: "Date")
+        QuestionsViewWatch(categoryName: "Date")
             .environmentObject(ModelData())
     }
 }

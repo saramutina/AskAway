@@ -21,7 +21,46 @@
 		37CFB1282A4F30DC0077449C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1272A4F30DC0077449C /* FavoriteButton.swift */; };
 		37CFB1312A5359ED0077449C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1302A5359ED0077449C /* Category.swift */; };
 		37CFB1332A5475B50077449C /* ShuffleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1322A5475B50077449C /* ShuffleButton.swift */; };
+		37CFB13B2A6AC48F0077449C /* AskAwayWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB13A2A6AC48F0077449C /* AskAwayWatchApp.swift */; };
+		37CFB1422A6AC4900077449C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CFB1412A6AC4900077449C /* Preview Assets.xcassets */; };
+		37CFB1452A6AC4900077449C /* AskAwayWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 37CFB1382A6AC48F0077449C /* AskAwayWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37CFB14A2A6AC5410077449C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BF3A52A421A010004FBFC /* ModelData.swift */; };
+		37CFB14B2A6AC5440077449C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37373C3A2A4B34A100F547D2 /* Question.swift */; };
+		37CFB14C2A6AC5460077449C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1302A5359ED0077449C /* Category.swift */; };
+		37CFB1542A6ACC150077449C /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 375BF39F2A4215150004FBFC /* questions.json */; };
+		37CFB1552A6ACEF40077449C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375BF3922A4214760004FBFC /* Assets.xcassets */; };
+		37CFB1572A6ACF340077449C /* ContentViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1562A6ACF340077449C /* ContentViewWatch.swift */; };
+		37CFB1592A6AD1570077449C /* CategoriesViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1582A6AD1570077449C /* CategoriesViewWatch.swift */; };
+		37CFB15C2A6AD2F30077449C /* CategoryIconViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB15B2A6AD2F30077449C /* CategoryIconViewWatch.swift */; };
+		37CFB15E2A6AD3CA0077449C /* ShuffleButtonWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB15D2A6AD3CA0077449C /* ShuffleButtonWatch.swift */; };
+		37CFB1602A6AD7230077449C /* QuestionsViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB15F2A6AD7230077449C /* QuestionsViewWatch.swift */; };
+		37CFB1622A6AD7A80077449C /* QuestionBubbleViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1612A6AD7A80077449C /* QuestionBubbleViewWatch.swift */; };
+		37CFB1652A6AD87E0077449C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1272A4F30DC0077449C /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37CFB1432A6AC4900077449C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375BF3832A4214750004FBFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37CFB1372A6AC48F0077449C;
+			remoteInfo = "AskAwayWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37CFB1492A6AC4900077449C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				37CFB1452A6AC4900077449C /* AskAwayWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		37229B062A4B038A00CC6904 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
@@ -39,10 +78,26 @@
 		37CFB1272A4F30DC0077449C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		37CFB1302A5359ED0077449C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		37CFB1322A5475B50077449C /* ShuffleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleButton.swift; sourceTree = "<group>"; };
+		37CFB1382A6AC48F0077449C /* AskAwayWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AskAwayWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CFB13A2A6AC48F0077449C /* AskAwayWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskAwayWatchApp.swift; sourceTree = "<group>"; };
+		37CFB1412A6AC4900077449C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37CFB1562A6ACF340077449C /* ContentViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewWatch.swift; sourceTree = "<group>"; };
+		37CFB1582A6AD1570077449C /* CategoriesViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewWatch.swift; sourceTree = "<group>"; };
+		37CFB15B2A6AD2F30077449C /* CategoryIconViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryIconViewWatch.swift; sourceTree = "<group>"; };
+		37CFB15D2A6AD3CA0077449C /* ShuffleButtonWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleButtonWatch.swift; sourceTree = "<group>"; };
+		37CFB15F2A6AD7230077449C /* QuestionsViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewWatch.swift; sourceTree = "<group>"; };
+		37CFB1612A6AD7A80077449C /* QuestionBubbleViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBubbleViewWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		375BF3882A4214750004FBFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CFB1352A6AC48F0077449C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				375BF38D2A4214750004FBFC /* AskAway */,
+				37CFB1392A6AC48F0077449C /* AskAwayWatch Watch App */,
 				375BF38C2A4214750004FBFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				375BF38B2A4214750004FBFC /* AskAway.app */,
+				37CFB1382A6AC48F0077449C /* AskAwayWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +178,37 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		37CFB1392A6AC48F0077449C /* AskAwayWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				37CFB13A2A6AC48F0077449C /* AskAwayWatchApp.swift */,
+				37CFB15A2A6AD2CF0077449C /* ViewsWatch */,
+				37CFB1402A6AC4900077449C /* Preview Content */,
+			);
+			path = "AskAwayWatch Watch App";
+			sourceTree = "<group>";
+		};
+		37CFB1402A6AC4900077449C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37CFB1412A6AC4900077449C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37CFB15A2A6AD2CF0077449C /* ViewsWatch */ = {
+			isa = PBXGroup;
+			children = (
+				37CFB1562A6ACF340077449C /* ContentViewWatch.swift */,
+				37CFB1582A6AD1570077449C /* CategoriesViewWatch.swift */,
+				37CFB15B2A6AD2F30077449C /* CategoryIconViewWatch.swift */,
+				37CFB15D2A6AD3CA0077449C /* ShuffleButtonWatch.swift */,
+				37CFB15F2A6AD7230077449C /* QuestionsViewWatch.swift */,
+				37CFB1612A6AD7A80077449C /* QuestionBubbleViewWatch.swift */,
+			);
+			path = ViewsWatch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,14 +219,33 @@
 				375BF3872A4214750004FBFC /* Sources */,
 				375BF3882A4214750004FBFC /* Frameworks */,
 				375BF3892A4214750004FBFC /* Resources */,
+				37CFB1492A6AC4900077449C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37CFB1442A6AC4900077449C /* PBXTargetDependency */,
+			);
+			name = AskAway;
+			productName = AskAway;
+			productReference = 375BF38B2A4214750004FBFC /* AskAway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37CFB1372A6AC48F0077449C /* AskAwayWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37CFB1462A6AC4900077449C /* Build configuration list for PBXNativeTarget "AskAwayWatch Watch App" */;
+			buildPhases = (
+				37CFB1342A6AC48F0077449C /* Sources */,
+				37CFB1352A6AC48F0077449C /* Frameworks */,
+				37CFB1362A6AC48F0077449C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AskAway;
-			productName = AskAway;
-			productReference = 375BF38B2A4214750004FBFC /* AskAway.app */;
+			name = "AskAwayWatch Watch App";
+			productName = "AskAwayWatch Watch App";
+			productReference = 37CFB1382A6AC48F0077449C /* AskAwayWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,6 +259,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					375BF38A2A4214750004FBFC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					37CFB1372A6AC48F0077449C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -170,6 +280,7 @@
 			projectRoot = "";
 			targets = (
 				375BF38A2A4214750004FBFC /* AskAway */,
+				37CFB1372A6AC48F0077449C /* AskAwayWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -182,6 +293,16 @@
 				375BF3A02A4215150004FBFC /* questions.json in Resources */,
 				375BF3962A4214760004FBFC /* Preview Assets.xcassets in Resources */,
 				375BF3932A4214760004FBFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CFB1362A6AC48F0077449C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CFB1542A6ACC150077449C /* questions.json in Resources */,
+				37CFB1422A6AC4900077449C /* Preview Assets.xcassets in Resources */,
+				37CFB1552A6ACEF40077449C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +327,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37CFB1342A6AC48F0077449C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CFB1592A6AD1570077449C /* CategoriesViewWatch.swift in Sources */,
+				37CFB14B2A6AC5440077449C /* Question.swift in Sources */,
+				37CFB1622A6AD7A80077449C /* QuestionBubbleViewWatch.swift in Sources */,
+				37CFB1652A6AD87E0077449C /* FavoriteButton.swift in Sources */,
+				37CFB1572A6ACF340077449C /* ContentViewWatch.swift in Sources */,
+				37CFB13B2A6AC48F0077449C /* AskAwayWatchApp.swift in Sources */,
+				37CFB1602A6AD7230077449C /* QuestionsViewWatch.swift in Sources */,
+				37CFB14A2A6AC5410077449C /* ModelData.swift in Sources */,
+				37CFB15C2A6AD2F30077449C /* CategoryIconViewWatch.swift in Sources */,
+				37CFB14C2A6AC5460077449C /* Category.swift in Sources */,
+				37CFB15E2A6AD3CA0077449C /* ShuffleButtonWatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37CFB1442A6AC4900077449C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37CFB1372A6AC48F0077449C /* AskAwayWatch Watch App */;
+			targetProxy = 37CFB1432A6AC4900077449C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		375BF3972A4214760004FBFC /* Debug */ = {
@@ -326,6 +473,7 @@
 		375BF39A2A4214760004FBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
@@ -335,7 +483,7 @@
 				DEVELOPMENT_TEAM = 37884VKC8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "AskAway - Conversation starters";
+				INFOPLIST_KEY_CFBundleDisplayName = AskAway;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -358,6 +506,7 @@
 		375BF39B2A4214760004FBFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
@@ -367,7 +516,7 @@
 				DEVELOPMENT_TEAM = 37884VKC8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "AskAway - Conversation starters";
+				INFOPLIST_KEY_CFBundleDisplayName = AskAway;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -384,6 +533,68 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37CFB1472A6AC4900077449C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AskAwayWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 37884VKC8R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AskAwayWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.saramutina.AskAway;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saramutina.AskAway.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		37CFB1482A6AC4900077449C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AskAwayWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 37884VKC8R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AskAwayWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.saramutina.AskAway;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saramutina.AskAway.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
 			};
 			name = Release;
 		};
@@ -404,6 +615,15 @@
 			buildConfigurations = (
 				375BF39A2A4214760004FBFC /* Debug */,
 				375BF39B2A4214760004FBFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37CFB1462A6AC4900077449C /* Build configuration list for PBXNativeTarget "AskAwayWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CFB1472A6AC4900077449C /* Debug */,
+				37CFB1482A6AC4900077449C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

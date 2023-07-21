@@ -12,7 +12,7 @@ enum Category: String, CaseIterable, Codable, Identifiable {
     case gettingToKnow = "Getting to Know You"
     case deep = "Deep"
     case couples = "Couples"
-    case whouldYouRather = "Would You Rather"
+    case wouldYouRather = "Would You Rather"
     case neverHaveIEver = "Never Have I Ever"
     case favorites = "Favorites"
     
@@ -24,7 +24,7 @@ enum Category: String, CaseIterable, Codable, Identifiable {
             return Color("purple")
         case .couples:
             return Color("pink")
-        case .whouldYouRather:
+        case .wouldYouRather:
             return Color("olive")
         case .neverHaveIEver:
             return Color("blue")
@@ -41,10 +41,10 @@ enum Category: String, CaseIterable, Codable, Identifiable {
             return "brain.head.profile"
         case .couples:
             return "heart"
-        case .whouldYouRather:
-            return "person.3"
+        case .wouldYouRather:
+            return "arrow.triangle.2.circlepath.circle"
         case .neverHaveIEver:
-            return "plus.forwardslash.minus"
+            return "hand.raised.slash"
         case .favorites:
             return "star"
         }
@@ -58,7 +58,7 @@ enum Category: String, CaseIterable, Codable, Identifiable {
             return 2
         case .couples:
             return 3
-        case .whouldYouRather:
+        case .wouldYouRather:
             return 4
         case .neverHaveIEver:
             return 5
