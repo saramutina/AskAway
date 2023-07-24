@@ -55,7 +55,7 @@
     },
     {
         "id": 1010,
-        "text": "Would you rather live in a cold or a hot climate?",
+        "text": "What would you like to go viral on youtube for?",
         "category": "Getting to Know You",
         "isFavorite": false
     },
@@ -240,6 +240,390 @@
         "isFavorite": false
     },
     {
+        "id": 1041,
+        "text": "If you could eliminate one food item from existence, which one would you choose and why?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1042,
+        "text": "What's the most unusual or interesting job you've ever had?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1043,
+        "text": "If you could have a conversation with any animal, which animal would you choose and what would you talk about?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1044,
+        "text": "What's the most memorable adventure you've ever had?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1045,
+        "text": "If you could wake up tomorrow with a new skill or ability, what would you choose and why?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1046,
+        "text": "If you could have dinner with any three people, dead or alive, who would you choose and why?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1047,
+        "text": "What's the strangest piece of trivia or fact that you know?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1048,
+        "text": "What's the most unusual talent or skill you possess?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1049,
+        "text": "What's your favorite form of creative expression (e.g., painting, writing, music, etc.), and why do you enjoy it?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1050,
+        "text": "What's the most meaningful or memorable compliment you've ever received?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1051,
+        "text": "If you could witness any natural phenomenon up close and personal, which one would you choose?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1052,
+        "text": "If you were stranded on a deserted island, what three things would you want to have with you?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1053,
+        "text": "What's something you've always wanted to learn or improve upon, but haven't had the opportunity to do so yet?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1054,
+        "text": "If you could choose any fictional character as your best friend, who would it be, and why?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1055,
+        "text": "What's the most beautiful place you've ever been to, and what made it so special?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1056,
+        "text": "If you had the opportunity to visit another planet, would you take it? Why or why not?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1057,
+        "text": "What's your favorite question to ask when getting to know someone new?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1058,
+        "text": "If you could have a personal chef for a week, who would you want them to be, and what meals would you ask them to prepare?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1059,
+        "text": "What's your go-to karaoke song?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1060,
+        "text": "If you could have any animal as a pet, what would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1061,
+        "text": "If you could only listen to one genre of music for the rest of your life, what would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1062,
+        "text": "What's your favorite board game or card game?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1063,
+        "text": "If you could have a celebrity as your best friend, who would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1064,
+        "text": "What's your favorite ice cream flavor?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1065,
+        "text": "If you could switch lives with anyone for a day, who would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1066,
+        "text": "What's the most daring fashion choice you've ever made?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1067,
+        "text": "What's the most memorable concert or live performance you've attended?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1068,
+        "text": "What's the craziest thing you've ever eaten?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1069,
+        "text": "If you could be a professional athlete, what sport would you choose?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1070,
+        "text": "What's your favorite childhood cartoon or TV show?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1071,
+        "text": "If you could only watch one TV show for the rest of your life, what would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1072,
+        "text": "If you could eliminate one chore from your life forever, which one would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1073,
+        "text": "If you could time travel to a specific decade, which one would you choose?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1074,
+        "text": "If you could learn to play any musical instrument overnight, which one would you choose?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1075,
+        "text": "What's the last thing you Googled?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1076,
+        "text": "What's the most incredible animal encounter you've ever had?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1077,
+        "text": "What's your favorite outdoor activity or sport?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1078,
+        "text": "If you could have a theme song playing every time you entered a room, what song would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1079,
+        "text": "If you could bring back one fashion trend from the past, which one would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1080,
+        "text": "If you could have any job in the world, regardless of qualifications or experience, what would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1081,
+        "text": "If you could have any fictional creature as a pet, what would it be?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1082,
+        "text": "If you could have a celebrity play you in a movie about your life, who would you choose?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1083,
+        "text": "What's the funniest or weirdest thing that has ever happened to you while traveling?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1084,
+        "text": "What's the most unusual or interesting talent you've seen someone else possess?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1085,
+        "text": "What's the most memorable prank someone has played on you or that you've played on someone else?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1086,
+        "text": "What's the most unusual or creative Halloween costume you've ever worn?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1087,
+        "text": "What's the craziest or most impressive DIY project you've ever attempted or witnessed?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1088,
+        "text": "If you could have a personal robot assistant, what would you want it to do for you?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1089,
+        "text": "If you could live in a fictional world from a video game, which one would it be and why?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1090,
+        "text": "What's the most adventurous or unconventional hairstyle or hair color you've ever had?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1091,
+        "text": "If you could have any fictional gadget or technology from a movie, what would you want?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1092,
+        "text": "If you could only communicate through song lyrics for a day, which song would you choose to express yourself?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1093,
+        "text": "What's the most incredible or mind-blowing magic trick or illusion you've seen?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1094,
+        "text": "If you could instantly become fluent in any foreign language, which one would you choose?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1095,
+        "text": "If you wrote a book about yourself, what would you title it?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1096,
+        "text": "What is the biggest dealbreaker for you in a relationship?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1097,
+        "text": "What is an awesome invention you think will be created in your lifetime?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1098,
+        "text": "What would be the first holiday you would go on after retiring?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1099,
+        "text": "What’s the silliest job you’d like to try?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1100,
+        "text": "What sleeping position do you always revert to?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1101,
+        "text": "What’s one name you would never call your kid and why?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1102,
+        "text": "Is there a fictional character that you think is exactly like you?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1103,
+        "text": "What quote would you get framed for your bedroom wall?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1104,
+        "text": "What is something you don’t like to see in movies?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
         "id": 2001,
         "text": "What is your biggest dream right now?",
         "category": "Deep",
@@ -420,6 +804,408 @@
         "isFavorite": false
     },
     {
+        "id": 2031,
+        "text": "What is the most significant sacrifice you've made for someone or something you believe in?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2032,
+        "text": "What is your philosophy on love and relationships?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2033,
+        "text": "Can you share a moment when you felt truly connected to another person?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2034,
+        "text": "How do you practice self-care and prioritize your well-being?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2035,
+        "text": "Can you share a significant turning point or transition in your life?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2036,
+        "text": "Can you describe a time when you felt completely out of your comfort zone? How did it feel?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2037,
+        "text": "What is your greatest strength?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2038,
+        "text": "How do you handle and learn from criticism or feedback?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2039,
+        "text": "Do you have a personal mantra or quote that resonates deeply with you? What is it?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2040,
+        "text": "When was the last time you suffered from imposter syndrome?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2041,
+        "text": "What has been the best phase in your life so far?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2042,
+        "text": "What was your relationship with your parents growing up?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2043,
+        "text": "What was your biggest fear as a child which is still something you fear today?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2044,
+        "text": "How comfortable do you feel talking about your past?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2045,
+        "text": "If you could change one experience in your life, what would it be?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2046,
+        "text": "If you could know one thing about your future now, what would it be?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2047,
+        "text": "Do you think we can change our future, or that it is already predestined?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2048,
+        "text": "When you hear the word future, what do you first think of?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2049,
+        "text": "What’s one opinion you have completely changed throughout your lifetime?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2050,
+        "text": "What are three things you truly love about yourself?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2051,
+        "text": "Are you guided more by a set of beliefs, or by gut feeling?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2052,
+        "text": "Do you believe in astrology?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2053,
+        "text": "Do you think the Matrix could be real?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2054,
+        "text": "Do you believe in giving people second chances? Are there times when you don’t?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2055,
+        "text": "Would you accept eternal life if you were granted it?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2056,
+        "text": "Do you derive your identity from your occupation? Be honest.",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2057,
+        "text": "Do you feel work has added to or subtracted from your life?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2058,
+        "text": "Who is one person you wish you’d never met and why?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2059,
+        "text": "Do you ever question your own sanity?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2060,
+        "text": "What would you want your legacy to be?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2061,
+        "text": "If you could write a journal entry right now, how would it start?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2062,
+        "text": "If you knew you had one year to live, how would you spend it?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2063,
+        "text": "If you died today, would you be satisfied with the life you’ve lived?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2064,
+        "text": "Do you think you are genuinely a good person?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2065,
+        "text": "How do you lean politically?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2066,
+        "text": " In general, do you prefer engaging in or avoiding political discussions?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2067,
+        "text": "What are your thoughts on traditional male and female roles?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2068,
+        "text": "What is your take on feminism?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2069,
+        "text": "Is there anyone who you would be able to die for to save their life?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2070,
+        "text": "When was the last time you cried? What was the reason?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2071,
+        "text": "If you could choose a family member or a friend who would live with you for a year, who would you choose?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2072,
+        "text": "Have you ever experienced an identity crisis? If yes, what happened?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2073,
+        "text": "What is your biggest personality flaw?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2074,
+        "text": "Have you ever had an unhealthy relationship with drugs or alcohol to the point where it affected your relationships and job?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2075,
+        "text": "What is your opinion about adoption and surrogacy?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2076,
+        "text": "Would you rather have a partner without a baby or a baby without a partner?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2077,
+        "text": "What relationship do you wish you could fix?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2078,
+        "text": "Would you stay with a spouse who cheated on you?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2079,
+        "text": "Do you think human beings are harming the planet?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2080,
+        "text": "Would you date someone who was bisexual or biromantic? Why or why not?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2081,
+        "text": "Do you find it difficult to admit when you’re wrong? Why or why not?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2082,
+        "text": "Have you ever lost a loved one? And if yes, how has that loss changed you?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2083,
+        "text": "How do you cope on those days when everything seems to go wrong?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2084,
+        "text": "What is your view on monogamy and “til death do us part”?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2085,
+        "text": "Do you believe someone’s DNA says all you need to know about their gender?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2086,
+        "text": "What’s your take on body positivity?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2087,
+        "text": "Is there is something that you do daily that you secretly hate doing?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2088,
+        "text": "If you died today, is there anyone you’d regret not reaching out to?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2089,
+        "text": "When you’re in a bad mood, would you rather have company or be left alone?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2090,
+        "text": "Have you ever learned to trust someone again after they betrayed you?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2091,
+        "text": "What do people constantly misunderstand about you?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2092,
+        "text": "What one person do you most want to hear from when you’re hurting?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2093,
+        "text": "How have your political or religious views changed in the past ten years?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2094,
+        "text": "What is your top friendship deal breaker?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2095,
+        "text": "How does your work reflect your passions, skills, and interests?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2096,
+        "text": "Do you tend to escape the reality during difficult moments in your life? How do you do it?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2097,
+        "text": "What situations drain your energy the most? How do you deal with them?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
         "id": 3001,
         "text": "If we could create a perfect date night together, what would it look like?",
         "category": "Couples",
@@ -536,6 +1322,204 @@
     {
         "id": 3020,
         "text": "How do you envision our ideal balance between quality time together and individual pursuits?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3021,
+        "text": "What is your favorite memory from the early days of our relationship, and why does it hold a special place in your heart?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3022,
+        "text": "What is your favorite way to communicate and connect with me, both verbally and non-verbally?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3023,
+        "text": "How do you envision our relationship evolving or growing in the next five years?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3024,
+        "text": "What are some activities or rituals that you’d love for us to incorporate into our daily lives?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3025,
+        "text": "What is one thing you appreciate or admire about my personality that you haven't told me before?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3026,
+        "text": "How do you navigate conflicts or disagreements in our relationship? Is there anything we can improve upon?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3027,
+        "text": "What are some of the ways we can continue to support and encourage each other's personal growth and development?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3028,
+        "text": "How do you prioritize self-care within our relationship, and how can we create space for it?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3029,
+        "text": "What are your thoughts on financial planning and shared financial goals within our relationship?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3030,
+        "text": "If we were to win the lottery, what would be the first adventurous thing you'd want us to experience together?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3031,
+        "text": "If you could create the perfect work-life balance, what would it look like for you, and how can we work towards it together?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3032,
+        "text": "If we could embark on an adventure together, what would it be, and what excites you about it?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3033,
+        "text": "If you could make a significant impact or difference in the world, what cause or issue would you focus on, and how can we contribute together?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3034,
+        "text": "What are some dreams or aspirations you've had since childhood that you still wish to pursue, and how can we support each other in making them a reality?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3035,
+        "text": "What are some shared goals or dreams that we can work towards as a couple?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3036,
+        "text": "What are some specific skills or knowledge you would like to acquire in order to achieve your life goals, and how can I assist you in that journey?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3037,
+        "text": "What is one thing you've always wanted to try or experience with me, but haven't had the chance to yet?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3038,
+        "text": "What are your thoughts on creating a legacy or leaving a lasting impact, and how can we work towards it together as a couple?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3039,
+        "text": "How do you envision our ideal retirement and the lifestyle we want to lead, and what steps can we take now to ensure a fulfilling future?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3040,
+        "text": "What are your thoughts on personal fulfillment and finding meaning in life, and how can we explore and cultivate it together?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3041,
+        "text": "What is one wild dream you've had since childhood that you'd love to bring to life, even if it seems a bit silly or whimsical?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3042,
+        "text": "If we could go on a dream vacation together, where would you want to go and why?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3043,
+        "text": "What is one cause or charity you'd like us to support as a couple, and how can we make a positive impact together?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3044,
+        "text": "If we were to create a unique tradition or ritual for our relationship, what would it be and how would it bring us joy?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3045,
+        "text": "What is your favorite way to show affection, and how can we incorporate it more into our daily lives?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3046,
+        "text": "If we were to design our dream home together, what are three features or elements you'd definitely want to include?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3047,
+        "text": "If we were to create a time capsule representing our relationship, what are three items you'd want to include to capture our journey?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3048,
+        "text": "If we could participate in a reality TV show together, which one would you choose, and why?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3049,
+        "text": "How do you envision our role in each other's families and the integration of our respective social circles?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3050,
+        "text": "What is one unique activity or experience you'd love us to try together that you think would be incredibly fun and memorable?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3051,
+        "text": "If we were to create a vision board for our ideal life together, what are three images or words you'd want to include?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3052,
+        "text": "What are some non-negotiable values or principles you hold when it comes to making important life decisions, and how can we align our goals accordingly?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3053,
+        "text": "What is one skill or talent you possess that you think would be fun to teach me, and how can we turn it into a bonding activity?",
         "category": "Couples",
         "isFavorite": false
     },
@@ -660,6 +1644,246 @@
         "isFavorite": false
     },
     {
+        "id": 4021,
+        "text": "Would you rather live in a world where it always snows or a world where it never stops raining?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4022,
+        "text": "Would you rather have unlimited free travel for life or unlimited free meals for life?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4023,
+        "text": "Would you rather be able to control the weather or control people's emotions?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4024,
+        "text": "Would you rather know the way you die or the date of your death?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4025,
+        "text": "Would you rather live in a treehouse or in an underground bunker?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4026,
+        "text": "Would you rather have a personal robot or a personal assistant?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4027,
+        "text": "Would you rather be able to speak to your past self or your future self?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4028,
+        "text": "Would you rather live in a world where everyone can read minds or a world where everyone can fly?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4029,
+        "text": "Would you rather have a personal library with every book ever written or a personal art collection with every famous painting?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4030,
+        "text": "Would you rather live in a world where it's always day or a world where it's always night?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4031,
+        "text": "Would you rather have a personal stylist or a personal trainer?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4032,
+        "text": "Would you rather have the ability to speak with the dead or the ability to see the future?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4033,
+        "text": "Would you rather always have to wear a superhero costume or a formal suit/dress?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4034,
+        "text": "Would you rather have the ability to control electronics or control the elements (fire, water, earth, air)?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4035,
+        "text": "Would you rather be able to teleport to any place on Earth or travel to any planet in the universe?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4036,
+        "text": "Would you rather permanently change your hair or permanently change your face shape?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4037,
+        "text": "Would you rather have the ability to time travel and change the past or see into the future but not be able to change it?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4038,
+        "text": "Would you rather lose your driver’s license for 2 years or lose at ever game you play for 2 years?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4039,
+        "text": "Would you rather be able to control gravity or control time?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4040,
+        "text": "Would you rather have the power to transform into any animal or have the power to communicate with animals?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4041,
+        "text": "Would you rather be able to breathe underwater or have the ability to walk on water?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4042,
+        "text": "Would you rather be able to speak to aliens or speak to ghosts?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4043,
+        "text": "Would you rather live in a world without technology or a world without art?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4044,
+        "text": "Would you rather have the ability to talk to your pet or have your pet be able to talk back to you?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4045,
+        "text": "Would you rather always have to wear mismatched socks or always have to wear shoes on the wrong feet?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4046,
+        "text": "Would you rather have the power to control dreams or control nightmares?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4047,
+        "text": "Would you rather live on a tropical island, or live amongst a wood forest?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4048,
+        "text": "Would you rather discover you were adopted or find out your family belongs to a secret cult?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4049,
+        "text": "Would you rather have access to your partner’s search history or have unlimited access to their credit card?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4050,
+        "text": "Would you rather have the power to heal others or the power to bring inanimate objects to life?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4051,
+        "text": "Would you rather be the only one who has magic powers in the world or be the person without magic powers in the magic world?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4052,
+        "text": "Would you rather be forced to answer 200 personal questions or do stand up comedy in front of a full audience?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4053,
+        "text": "Would you rather go out to dinner every night or go out to the movies every night?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4054,
+        "text": "Would you rather have your partner know everything you think, or your mum?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4055,
+        "text": "Would you rather be extraordinary and unknown or ordinary and famous?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4056,
+        "text": "Would you rather live in a cold or a hot climate?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4057,
+        "text": "Would you rather have bright blue skin or be invisible?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4058,
+        "text": "Would you rather be born 300 years ago or 300 years in the future?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4059,
+        "text": "Would you rather forget how to read or forget how to speak?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
+        "id": 4060,
+        "text": "Would you rather shave your head or have you face painted like a clown 24/7 for a month?",
+        "category": "Would You Rather",
+        "isFavorite": false
+    },
+    {
         "id": 5001,
         "text": "Never have I ever traveled solo to a foreign country.",
         "category": "Never Have I Ever",
@@ -776,6 +2000,426 @@
     {
         "id": 5020,
         "text": "Never have I ever taken part in a flash mob or public dance.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5021,
+        "text": "Never have I ever tried an extreme hairstyle or hair color.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5022,
+        "text": "Never have I ever made a prank call.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5023,
+        "text": "Never have I ever lied about my age to impress someone.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5024,
+        "text": "Never have I ever kissed someone on the first date.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5025,
+        "text": "Never have I ever broken a bone.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5026,
+        "text": "Never have I ever been caught cheating on a test or exam.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5027,
+        "text": "Never have I ever had a crush on a celebrity.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5028,
+        "text": "Never have I ever kissed someone of the same gender.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5029,
+        "text": "Never have I ever lied on a resume or job application.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5030,
+        "text": "Never have I ever pretended to know a song just to fit in.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5031,
+        "text": "Never have I ever pretended to be sick to get out of something.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5032,
+        "text": "Never have I ever dated more than one person at the same time.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5033,
+        "text": "Never have I ever received a love letter from someone I didn't know.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5034,
+        "text": "Never have I ever lied about my nationality or ethnicity.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5035,
+        "text": "Never have I ever lied about my relationship status.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5036,
+        "text": "Never have I ever had a crush on a friend's ex-partner.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5037,
+        "text": "Never have I ever been stalking someone on social media.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5038,
+        "text": "Never have I ever stayed awake for 24 hours straight.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5039,
+        "text": "Never have I ever flirted with someone to get a discount or special treatment.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5040,
+        "text": "Never have I ever been caught talking to myself.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5041,
+        "text": "Never have I ever called someone by the wrong name repeatedly.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5042,
+        "text": "Never have I ever laughed at a joke I didn't understand.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5043,
+        "text": "Never have I ever had a secret online dating profile.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5044,
+        "text": "Never have I ever accidentally walked into the wrong restroom.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5045,
+        "text": "Never have I ever laughed so hard that I peed a little.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5046,
+        "text": "Never have I ever accidentally called my teacher or boss \"mom\" or \"dad\".",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5047,
+        "text": "Never have I ever cheated on someone.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5048,
+        "text": "Never have I ever been cheated on. ",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5049,
+        "text": "Never have I ever stolen anything.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5050,
+        "text": "Never have I ever been in a relationship with someone significantly older or younger than me.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5051,
+        "text": "Never have I ever accidentally sent a message to the wrong group chat.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5052,
+        "text": "Never have I ever had a secret crush on a friend's partner or ex-partner.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5053,
+        "text": "Never have I ever had a friends-with-benefits arrangement.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5054,
+        "text": "Never have I ever had my pants rip in a public place.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5055,
+        "text": "Never have I ever kissed my best friend.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5056,
+        "text": "Never have I ever had a secret relationship or kept a romantic partner hidden from others.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5057,
+        "text": "Never have I ever accidentally hit \"Reply All\" in an email and shared something private.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5058,
+        "text": "Never have I ever gotten into a physical fight.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5059,
+        "text": "Never have I ever told someone \"I love you\" without meaning it.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5060,
+        "text": "Never have I ever attended a comic convention.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5061,
+        "text": "Never have I ever accidentally sent a text about someone to that person instead of a friend.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5062,
+        "text": "Never have I ever given a lap dance.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5063,
+        "text": "Never have I ever gotten a lap dance.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5064,
+        "text": "Never have I ever had a negative bank account balance.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5065,
+        "text": "Never have I ever kissed someone without knowing their name.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5066,
+        "text": "Never have I ever  been repeatedly mispronouncing a common word in a conversation.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5067,
+        "text": "Never have I ever been fired or expelled.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5068,
+        "text": "Never have I ever broken the law.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5069,
+        "text": "Never have I ever stayed in a relationship that I really wasn’t feeling.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5070,
+        "text": "Never have I ever given someone a fake phone number.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5071,
+        "text": "Never have I ever seen a ghost.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5072,
+        "text": "Never have I ever intentionally started a fight between other people.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5073,
+        "text": "Never have I ever had a relationship last less than a month.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5074,
+        "text": "Never have I ever had a relationship last longer than a year.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5075,
+        "text": "Never have I ever found a dumb excuse to text an ex.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5076,
+        "text": "Never have I ever catfished someone.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5077,
+        "text": "Never have I ever been sent to the principal's office.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5078,
+        "text": "Never have I ever been accused of sharing too much on social media.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5079,
+        "text": "Never have I ever been in an open relationship.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5080,
+        "text": "Never have I ever been told I snore loudly.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5081,
+        "text": "Never have I ever used someone else's toothbrush.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5082,
+        "text": "Never have I ever met a celebrity.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5083,
+        "text": "Never have I ever broken someone’s heart.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5084,
+        "text": "Never have I ever auditioned for a reality television show.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5085,
+        "text": "Never have I ever gone to a party I wasn’t invited to.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5086,
+        "text": "Never have I ever cut my own hair.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5087,
+        "text": "Never have I ever wanted to date my ex again.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5088,
+        "text": "Never have I ever predicted something significant about future that came true.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5089,
+        "text": "Never have I ever lied while playing this game.",
+        "category": "Never Have I Ever",
+        "isFavorite": false
+    },
+    {
+        "id": 5090,
+        "text": "Never have I ever forgotten names of people in this room.",
         "category": "Never Have I Ever",
         "isFavorite": false
     }
