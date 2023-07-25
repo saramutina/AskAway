@@ -60,9 +60,9 @@ func getNewDataWithFavorites(for filename: String) -> [Question] {
     var persistedFavoritesFile = [Question]()
     
     bundleFile = Bundle.load(filename)
-    storedFile = readData(filename)
+    storedFile = readData(filename) ?? []
     
-    var existingFavorites = storedFile.filter({$0.isFavorite == true})
+    let existingFavorites = storedFile.filter({$0.isFavorite == true})
     
     if bundleFile.count == storedFile.count {
         return storedFile
@@ -78,7 +78,7 @@ func getNewDataWithFavorites(for filename: String) -> [Question] {
     }
 }
 
-func readData<T: Decodable>(_ filename: String) -> T {
+func readData(_ filename: String) -> [Question]? {
     var file: URL
     var data: Data
     
@@ -96,14 +96,15 @@ func readData<T: Decodable>(_ filename: String) -> T {
     do {
         data = try Data(contentsOf: file)
     } catch {
-        fatalError("Couldn't load \(filename) from main bundle or document directory: \n\(error)")
+        print("Couldn't load \(filename) from main bundle or document directory: \n\(error)")
+        return nil
     }
     
     do {
         let decoder = JSONDecoder()
-        return try decoder.decode(T.self, from: data)
+        return try decoder.decode([Question].self, from: data)
     } catch {
-        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+        fatalError("Couldn't parse \(filename) as \([Question].self):\n\(error)")
     }
 }
 
