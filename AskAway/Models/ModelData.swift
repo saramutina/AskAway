@@ -13,7 +13,7 @@ class ModelData: ObservableObject {
     @Published var shuffledQuestions = [Question]()
     
     init() {
-        self.questions = Bundle.load("questions.json")
+        self.questions = getNewDataWithFavorites(for: "questions.json")
     }
     
     var favoriteQuestions: [Question] {
@@ -37,42 +37,90 @@ class ModelData: ObservableObject {
         shuffledQuestions = questions.shuffled()
     }
     
-    func saveData(to filename: String) {
-        guard let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else {
-            fatalError("Couldn't locate document directory.")
-        }
-        let jsonURL = documentDirectory
-            .appendingPathComponent(filename)
+    func save<T:Codable>(_ questions: [T], filename: String) {
+        var file: URL
         do {
-            try JSONEncoder().encode(questions).write(to: jsonURL, options: .atomic)
+            file = try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+                .appendingPathComponent(filename)
+        } catch {
+            fatalError("Coudn't read or create \(filename): \(error.localizedDescription)")
+        }
+        
+        do {
+            try JSONEncoder().encode(questions).write(to: file)
         } catch {
             fatalError("Couldn't write questions to \(filename): \n\(error)")
         }
     }
 }
 
+func getNewDataWithFavorites(for filename: String) -> [Question] {
+    var bundleFile = [Question]()
+    var storedFile = [Question]()
+    var persistedFavoritesFile = [Question]()
+    
+    bundleFile = Bundle.load(filename)
+    storedFile = readData(filename)
+    
+    var existingFavorites = storedFile.filter({$0.isFavorite == true})
+    
+    if bundleFile.count == storedFile.count {
+        return storedFile
+    } else {
+        for question in bundleFile {
+            if let favoriteQuestion = existingFavorites.first(where: {$0.id == question.id}) {
+                persistedFavoritesFile.append(favoriteQuestion)
+            } else {
+                persistedFavoritesFile.append(question)
+            }
+        }
+        return persistedFavoritesFile
+    }
+}
+
+func readData<T: Decodable>(_ filename: String) -> T {
+    var file: URL
+    var data: Data
+    
+    do {
+        file = try FileManager.default.url(
+            for: .documentDirectory,
+            in: .userDomainMask,
+            appropriateFor: nil,
+            create: true)
+            .appendingPathComponent(filename)
+    } catch {
+        fatalError("Couldn't read or create \(filename): \n\(error)")
+    }
+    
+    do {
+        data = try Data(contentsOf: file)
+    } catch {
+        fatalError("Couldn't load \(filename) from main bundle or document directory: \n\(error)")
+    }
+    
+    do {
+        let decoder = JSONDecoder()
+        return try decoder.decode(T.self, from: data)
+    } catch {
+        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+    }
+}
+
 extension Bundle {
     static func load<T: Decodable>(_ filename: String) -> T {
-        let data: Data
+        var data: Data
+        
         guard let file = Bundle.main.url(forResource: filename, withExtension: nil) else {
             fatalError("Couldn't find \(filename) in main bundle.")
         }
-        guard let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else {
-            fatalError("Couldn't locate document directory.")
-        }
-        let jsonURL = documentDirectory
-            .appendingPathComponent(filename)
-        
-        if !FileManager.default.fileExists(atPath: jsonURL.path) {
-                    try? FileManager.default.copyItem(at: file, to: jsonURL)
-                }
         
         do {
-            data = try Data(contentsOf: jsonURL)
+            data = try Data(contentsOf: file)
         } catch {
             fatalError("Couldn't load \(filename) from main bundle: \n\(error)")
         }
-        
+
         do {
             let decoder = JSONDecoder()
             return try decoder.decode(T.self, from: data)

@@ -13,8 +13,10 @@ struct AskAwayApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(modelData)
+            NavigationView {
+                ContentView()
+            }
+            .environmentObject(modelData)
         }
     }
 }

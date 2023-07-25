@@ -11,10 +11,8 @@ struct ContentView: View {
     @EnvironmentObject var modelData: ModelData
     
     var body: some View {
-        NavigationView {
-            CategoriesView()
-                .background(Color("background"))
-        }
+        CategoriesView()
+            .background(Color("background"))
     }
 }
 

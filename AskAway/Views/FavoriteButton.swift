@@ -14,7 +14,7 @@ struct FavoriteButton: View {
     var body: some View {
         Button {
             isSet.toggle()
-            modelData.saveData(to: "questions.json")
+            modelData.save(modelData.questions, filename: "questions.json")
         } label: {
             Label("Toggle Favorite", systemImage: isSet ? "star.fill" : "star")
                 .shadow(radius: 2, x: -1, y: 1)
