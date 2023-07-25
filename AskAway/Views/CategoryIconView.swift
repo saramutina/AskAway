@@ -26,7 +26,7 @@ struct CategoryIconView: View {
                     .padding()
                     .foregroundColor(Color.primary)
                 Spacer()
-                Text(category.rawValue)
+                Text(NSLocalizedString(category.rawValue, comment: "category name"))
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
                     .padding(7)

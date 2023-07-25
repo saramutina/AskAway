@@ -18,12 +18,12 @@ struct QuestionBubbbleView: View {
                 .shadow(radius: 2, x: -3, y: 3)
             VStack(alignment: .center) {
                 HStack {
-                    Text(question.category.rawValue)
+                    Text(NSLocalizedString(question.category.rawValue, comment: "category name"))
                     Spacer()
                     FavoriteButton(isSet: $modelData.questions.first(where: { $0.id == question.id})!.isFavorite)
                 }
                 .padding(.bottom, 10)
-                Text(question.text)
+                Text(NSLocalizedString(question.text, comment: "question text"))
                     .font(.title)
                     .multilineTextAlignment(.center)
             }

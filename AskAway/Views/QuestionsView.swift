@@ -62,6 +62,7 @@ struct QuestionsView: View {
                     } label: {
                         Image(systemName: "arrow.left")
                     }
+                    .accessibilityLabel("Previous question")
                     .padding(.trailing, 40)
                     QuestionsCountTextView
                     Button {
@@ -69,6 +70,7 @@ struct QuestionsView: View {
                     } label: {
                         Image(systemName: "arrow.right")
                     }
+                    .accessibilityLabel("Next question")
                     .padding(.leading, 40)
                 }
                 .padding(.bottom)
