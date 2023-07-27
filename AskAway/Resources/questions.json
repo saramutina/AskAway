@@ -235,7 +235,7 @@
     },
     {
         "id": 1040,
-        "text": "If you could be a character in any book, which book would you choose and why?",
+        "text": "What's the most daring fashion choice you've ever made?",
         "category": "Getting to Know You",
         "isFavorite": false
     },
@@ -391,7 +391,7 @@
     },
     {
         "id": 1066,
-        "text": "What's the most daring fashion choice you've ever made?",
+        "text": "If you could be a character in any book, which book would you choose and why?",
         "category": "Getting to Know You",
         "isFavorite": false
     },
@@ -571,7 +571,7 @@
     },
     {
         "id": 1096,
-        "text": "What is the biggest dealbreaker for you in a relationship?",
+        "text": "If you were a character in a cartoon, what wacky catchphrase would you have?",
         "category": "Getting to Know You",
         "isFavorite": false
     },
@@ -620,6 +620,42 @@
     {
         "id": 1104,
         "text": "What is something you don’t like to see in movies?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1105,
+        "text": "If you could create a new holiday, what would it be called and how would you celebrate it?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1106,
+        "text": "What's the most unusual hobby or interest you have that surprises people?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1107,
+        "text": "If you could invent a new flavor of potato chips, what would it taste like?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1108,
+        "text": "What's the silliest, non-essential item you've ever bought or considered buying online?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1109,
+        "text": "What's the most absurd rumor or gossip you've ever heard about yourself, and how did you react to it?",
+        "category": "Getting to Know You",
+        "isFavorite": false
+    },
+    {
+        "id": 1110,
+        "text": "What's the most outlandish conspiracy theory you've heard, and did it make you laugh or question reality?",
         "category": "Getting to Know You",
         "isFavorite": false
     },
