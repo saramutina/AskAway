@@ -1051,7 +1051,7 @@
     },
     {
         "id": 2066,
-        "text": " In general, do you prefer engaging in or avoiding political discussions?",
+        "text": "In general, do you prefer engaging in or avoiding political discussions?",
         "category": "Deep",
         "isFavorite": false
     },
@@ -1238,6 +1238,24 @@
     {
         "id": 2097,
         "text": "What situations drain your energy the most? How do you deal with them?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2098,
+        "text": "What is the biggest dealbreaker for you in a relationship?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2099,
+        "text": "What, if anything, is too serious to be joked about?",
+        "category": "Deep",
+        "isFavorite": false
+    },
+    {
+        "id": 2100,
+        "text": "If you redesigned society, what would you change?",
         "category": "Deep",
         "isFavorite": false
     },
