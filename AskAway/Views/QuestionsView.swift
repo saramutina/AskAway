@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct QuestionsView: View {
     @EnvironmentObject var modelData: ModelData
+    @Environment(\.colorScheme) var colorScheme
     var categoryName: String
     
-    @State private var currentQuestionIndex: Int = 0
+    init(categoryName: String) {
+        self.categoryName = categoryName
+    }
     
     var questions: [Question] {
         if categoryName == "all" {
@@ -26,77 +30,89 @@ struct QuestionsView: View {
         }
     }
     
-    var question: Question {
-        if questions.indices.contains(currentQuestionIndex) {
-            return questions[currentQuestionIndex]
-        } else {
-            let newIndex = questions.count - 1
-            return questions[newIndex]
-        }
-    }
-    
-    func changeToNextQuestion() {
-        currentQuestionIndex = currentQuestionIndex + 1 < questions.count ? currentQuestionIndex + 1 : 0
-    }
-
-    func changeToPreviousQuestion() {
-        if currentQuestionIndex + 1 > questions.count {
-            currentQuestionIndex = questions.count - 1
-        }
-        currentQuestionIndex = currentQuestionIndex - 1 >= 0 ? currentQuestionIndex - 1 : questions.count - 1
-    }
-
-    
     var body: some View {
         if !questions.isEmpty {
-            VStack {
-                Spacer()
-                
-                QuestionBubbbleView(question: question)
-                
-                Spacer()
-                
-                HStack {
-                    Button {
-                        changeToPreviousQuestion()
-                    } label: {
-                        Image(systemName: "arrow.left")
+                TabView {
+                    ForEach(questions) {question in
+                        VStack{
+                            QuestionBubbbleView(question: question)
+                            Text("\(questions.firstIndex(of: question)! + 1) / \(questions.count)")
+                                .opacity(0.5)
+                        }
                     }
-                    .accessibilityLabel("Previous question")
-                    .padding(.trailing, 40)
-                    QuestionsCountTextView
-                    Button {
-                        changeToNextQuestion()
-                    } label: {
-                        Image(systemName: "arrow.right")
-                    }
-                    .accessibilityLabel("Next question")
-                    .padding(.leading, 40)
                 }
-                .padding(.bottom)
-
+            .tabViewStyle(.page(indexDisplayMode: .automatic))
+            .indexViewStyle(.page(backgroundDisplayMode: .interactive))
+            .onAppear {
+                UIPageControl.appearance().currentPageIndicatorTintColor = getIndicatorColor(categoryName: categoryName, colorScheme: colorScheme)
+                UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
             }
+        
             .background(Color("background"))
         } else {
             EmptyView()
                 .background(Color("background"))
         }
     }
-    
-    private var QuestionsCountTextView: some View {
-        if questions.indices.contains(currentQuestionIndex) {
-            return Text("\(currentQuestionIndex + 1) / \(questions.count)")
+}
+
+private func getIndicatorColor(categoryName: String, colorScheme: ColorScheme) -> UIColor {
+    var indicatorColor: UIColor
+    if Category(rawValue: categoryName) != nil {
+        if colorScheme == .dark {
+            indicatorColor = UIColor(Category(rawValue: categoryName)!.color).lighter()
         } else {
-            let newIndex = questions.count
-            return Text("\(newIndex) / \(questions.count)")
+            indicatorColor = UIColor(Category(rawValue: categoryName)!.color).darker()
         }
+    } else {
+        indicatorColor = UIColor(Color.gray)
+    }
+    return indicatorColor
+}
+
+extension UIColor {
+    private func makeColor(componentDelta: CGFloat) -> UIColor {
+        var red: CGFloat = 0
+        var blue: CGFloat = 0
+        var green: CGFloat = 0
+        var alpha: CGFloat = 0
+        
+        // Extract r,g,b,a components from the
+        // current UIColor
+        getRed(
+            &red,
+            green: &green,
+            blue: &blue,
+            alpha: &alpha
+        )
+        
+        // Create a new UIColor modifying each component
+        // by componentDelta, making the new UIColor either
+        // lighter or darker.
+        return UIColor(
+            red: add(componentDelta, toComponent: red),
+            green: add(componentDelta, toComponent: green),
+            blue: add(componentDelta, toComponent: blue),
+            alpha: alpha
+        )
     }
     
+    private func add(_ value: CGFloat, toComponent: CGFloat) -> CGFloat {
+            return max(0, min(1, toComponent + value))
+        }
+    
+    func lighter(componentDelta: CGFloat = 0.4) -> UIColor {
+        return makeColor(componentDelta: componentDelta)
+    }
+    
+    func darker(componentDelta: CGFloat = 0.4) -> UIColor {
+        return makeColor(componentDelta: -1 * componentDelta)
+    }
 }
 
 struct QuestionsView_Previews: PreviewProvider {
     static var previews: some View {
-        QuestionsView(categoryName: "Date")
+        QuestionsView(categoryName: "Deep")
             .environmentObject(ModelData())
     }
 }

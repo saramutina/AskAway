@@ -18,7 +18,10 @@ struct QuestionBubbbleView: View {
                 .shadow(radius: 2, x: -3, y: 3)
             VStack(alignment: .center) {
                 HStack {
+                    Image(systemName: question.category.imageName)
+                        .opacity(0.6)
                     Text(NSLocalizedString(question.category.rawValue, comment: "category name"))
+                        .opacity(0.6)
                     Spacer()
                     FavoriteButton(isSet: $modelData.questions.first(where: { $0.id == question.id})!.isFavorite)
                 }
