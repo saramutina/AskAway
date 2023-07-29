@@ -35,7 +35,7 @@ struct QuestionsView: View {
                 TabView {
                     ForEach(questions) {question in
                         VStack{
-                            QuestionBubbbleView(question: question)
+                            QuestionBubbbleView(question: question, isFavorite: $modelData.questions.first(where: { $0.id == question.id})!.isFavorite)
                             Text("\(questions.firstIndex(of: question)! + 1) / \(questions.count)")
                                 .opacity(0.5)
                         }

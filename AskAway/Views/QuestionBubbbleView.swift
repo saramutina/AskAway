@@ -10,6 +10,7 @@ import SwiftUI
 struct QuestionBubbbleView: View {
     @EnvironmentObject var modelData: ModelData
     var question: Question
+    @Binding var isFavorite: Bool
     
     var body: some View {
         ZStack {
@@ -23,7 +24,7 @@ struct QuestionBubbbleView: View {
                     Text(NSLocalizedString(question.category.rawValue, comment: "category name"))
                         .opacity(0.6)
                     Spacer()
-                    FavoriteButton(isSet: $modelData.questions.first(where: { $0.id == question.id})!.isFavorite)
+                    FavoriteButton(isSet: $isFavorite)
                 }
                 .padding(.bottom, 10)
                 Text(NSLocalizedString(question.text, comment: "question text"))
@@ -32,6 +33,10 @@ struct QuestionBubbbleView: View {
             }
             .padding()
         }
+        .onTapGesture(count: 2) {
+            isFavorite.toggle()
+            modelData.save(modelData.questions, filename: "questions.json")
+        }
         .fixedSize(horizontal: false, vertical: true)
         .padding()
     }
@@ -39,7 +44,7 @@ struct QuestionBubbbleView: View {
 
 struct QuestionBubbleView_Previews: PreviewProvider {
     static var previews: some View {
-        QuestionBubbbleView( question: ModelData().questions[0])
+        QuestionBubbbleView( question: ModelData().questions[0], isFavorite: .constant(false))
             .environmentObject(ModelData())
     }
 }
