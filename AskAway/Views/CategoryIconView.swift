@@ -33,6 +33,7 @@ struct CategoryIconView: View {
             }
             .foregroundColor(Color.primary)
         }
+        .accessibilityLabel("\(categoryName) questions category")
         .frame(height: 150)
     }
 }

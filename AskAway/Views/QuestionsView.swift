@@ -13,10 +13,6 @@ struct QuestionsView: View {
     @Environment(\.colorScheme) var colorScheme
     var categoryName: String
     
-    init(categoryName: String) {
-        self.categoryName = categoryName
-    }
-    
     var questions: [Question] {
         if categoryName == "all" {
             if modelData.shuffledQuestions.count == 0 {
@@ -47,7 +43,6 @@ struct QuestionsView: View {
                 UIPageControl.appearance().currentPageIndicatorTintColor = getIndicatorColor(categoryName: categoryName, colorScheme: colorScheme)
                 UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
             }
-        
             .background(Color("background"))
         } else {
             EmptyView()

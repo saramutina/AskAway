@@ -20,7 +20,8 @@ struct ShuffleButtonWatch: View {
                     .padding()
                     .frame(width: 50, height: 50)
                 Spacer()
-                Text("Shuffle")
+                Text(NSLocalizedString("Shuffle", comment: "shuffle button"))
+                    .font(.caption2)
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
                     .padding(7)
@@ -28,6 +29,7 @@ struct ShuffleButtonWatch: View {
             }
             .foregroundColor(Color("primary"))
         }
+        .accessibilityLabel("Shuffle button")
         .frame(maxHeight: .infinity)
         .fixedSize(horizontal: false, vertical: true)
     }

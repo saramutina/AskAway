@@ -25,7 +25,8 @@ struct CategoryIconViewWatch: View {
                     .padding()
                     .frame(width: 50, height: 50)
                 Spacer()
-                Text(category.rawValue)
+                Text(NSLocalizedString(category.rawValue, comment: "category name"))
+                    .font(.caption2)
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
                     .padding(7)
@@ -33,6 +34,7 @@ struct CategoryIconViewWatch: View {
             }
             .foregroundColor(Color("primary"))
         }
+        .accessibilityLabel("\(categoryName) questions category")
         .frame(maxHeight: .infinity)
         .fixedSize(horizontal: false, vertical: true)
     }

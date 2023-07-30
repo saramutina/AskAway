@@ -19,6 +19,7 @@ struct ShuffleButton: View {
                 .padding(20)
                 .foregroundColor(Color.primary)
         }
+        .accessibilityLabel("Shuffle questions")
         .frame(height: 100)
         .padding(.horizontal)
     }

@@ -10,6 +10,7 @@ import SwiftUI
 struct QuestionBubbbleViewWatch: View {
     @EnvironmentObject var modelData: ModelData
     var question: Question
+    @Binding var isFavorite: Bool
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: true) {
@@ -19,15 +20,19 @@ struct QuestionBubbbleViewWatch: View {
                     .shadow(radius: 2, x: -3, y: 3)
                 VStack(alignment: .center) {
                     HStack {
-                        Text(question.category.rawValue)
-                            .font(.footnote)
+                        Image(systemName: question.category.imageName)
+                            .opacity(0.6)
+                        Text(NSLocalizedString(question.category.rawValue, comment: "category name"))
+                            .font(.caption2)
+                            .multilineTextAlignment(.leading)
+                            .opacity(0.6)
                         Spacer()
-                        FavoriteButtonWatch(isSet: $modelData.questions.first(where: { $0.id == question.id})!.isFavorite)
+                        FavoriteButtonWatch(isSet: $isFavorite)
                     }
                     .frame(height: 20)
                     .padding(.bottom, 5)
                     .opacity(0.7)
-                    Text(question.text)
+                    Text(NSLocalizedString(question.text, comment: "question text"))
                         .multilineTextAlignment(.center)
                 }
                 .padding()
@@ -40,7 +45,7 @@ struct QuestionBubbbleViewWatch: View {
 
 struct QuestionBubbleViewWatch_Previews: PreviewProvider {
     static var previews: some View {
-        QuestionBubbbleViewWatch( question: ModelData().questions[0])
+        QuestionBubbbleViewWatch( question: ModelData().questions[0], isFavorite: .constant(false))
             .environmentObject(ModelData())
     }
 }
