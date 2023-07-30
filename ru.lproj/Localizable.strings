@@ -9,10 +9,11 @@
 "Getting to Know You" = "Узнать получше";
 "Deep" = "Философские вопросы";
 "Couples" = "Отношения";
-"Would You Rather" = "Что бы ты выбрал";
+"Would You Rather" = "Что ты выберешь";
 "Never Have I Ever" = "Я никогда не";
 "Favorites" = "Избранное";
 
+// MARK: "Getting To Know You" questions
 "What’s your favorite way to spend a day off?" = "Как ты любишь проводить свои выходные?";
 "Would you say you’re more of an extrovert or an introvert?" = "Ты считаешь себя скорее экстравертом или интровертом?";
 "If you could only eat one food for the rest of your life, what would it be?" = "Если бы ты мог есть только одно блюдо до конца жизни, какое блюдо ты бы выбрал(а)?";
@@ -123,6 +124,8 @@
 "What's the silliest, non-essential item you've ever bought or considered buying online?" = "Какая сама дурацкая не-необходимая вещь которую ты когда-либо покупал(а) или хотел(а) купить онлайн?";
 "What's the most absurd rumor or gossip you've ever heard about yourself, and how did you react to it?" = "Какой самый странный слух ты слышал(а) о себе? И какая у тебя была реакция на него?";
 "What's the most outlandish conspiracy theory you've heard, and did it make you laugh or question reality?" = "Какую самую сумасшедшую теорию заговора ты слышал(а)? Она была смешной или заставила тебя сомнневаться в реальности?";
+
+// MARK: "Deep" questions
 "What is your biggest dream right now?" = "Какая у тебя сейчас самая главная мечта в жизни?";
 "If you could have a conversation with your future self, what advice or question would you want to share?" = "Если бы мог(ла) поговорить с будущей версией себя, какой вопрос бы ты спросил(а) или какой совет дал(а)?";
 "What type of people you could never be friends with?" = "С какими людьми ты бы никогда не смог(ла) стать друзьями?";
@@ -224,10 +227,7 @@
 "What, if anything, is too serious to be joked about?" = "Какие темы (если такие есть) слишком серьезные, чтобы о них шутить?";
 "If you redesigned society, what would you change?" = "Если бы ты мог(ла) изменить общество, то что бы ты поменял(а)?";
 
-
-
-
-
+// MARK: "Couples" questions
 "If we could create a perfect date night together, what would it look like?" = "Если бы мы с тобой устроили идеальное свидание - как бы оно выглядело?";
 "What is your ultimate dream or life goal, and how can I support you in achieving it?" = "Какая у тебя сейчас основная мечта или цель в жизни, и как я могу тебя поддержать в ее достижении?";
 "If we could retire early and spend our days doing something we love, what would that be for you?" = "Если бы мы могли поарньше выйти на пенсию и проводить наши дни занимаясь тем что мы любим - что бы это было для тебя?";
@@ -298,3 +298,65 @@
 "What is a present that you have always wanted?" = "Какой подарок ты всегда хотел(а) получить?";
 "Would you consider cooking together as spending quality time?" = "Считаешь ли ты совместное приготовление еды за качественно проведенное вместе время?";
 "Do you feel comfortable sharing your problems with me?" = "Насколько тебе комфортно делиться со мной своими проблемами?";
+
+// MARK: "Would You Rather" questions
+"Would you rather have the ability to fly or be invisible?" = "Что ты выберешь: способность летать или невидимость";
+"Would you rather have a rewind button for your life or a pause button?" = "Что ты выберешь: иметь кнопку перемотки своей жизни или кнопку паузы?";
+"Would you rather always have to sing instead of speak or dance everywhere you go?" = "Что ты выберешь: всегда петь вместо того чтобы говорить или всегда танцевать когда идешь куда-то?";
+"Would you rather never have to sleep again or never have to eat again?" = "Что ты выберешь: чтобы тебе больше никогда не нужно было спать или никогда не нужно было есть?";
+"Would you rather always be able to eat anything and as much as you want without negative consequences or never have to eat ever again unless you choose to?" = "Что ты выберешь: способность есть что и сколько хочешь без плохих последствий для здоровья или чтобы тебе никогда не нужно было есть, если не захочешь?";
+"Would you rather be able to talk to animals or speak all human languages fluently?" = "Что ты выберешь: способность разговаривать с животными или чтобы ты в совершенстве знал(а) все человеческие языки?";
+"Would you rather have a time machine that only goes to the past or a time machine that only goes to the future?" = "Что ты выберешь: машину времени, которая перемащается только в прошлое, или которая перемещается только в будущее?";
+"Would you rather have ageless beauty or unlimited wealth?" = "Что ты выберешь: никогда не стареть внешне или бесконечное богатство?";
+"Would you rather live in a world without music or a world without books?" = "Что ты выберешь: жить в мире без музыки или в мире без книг?";
+"Would you rather be a famous actor/actress or a successful author?" = "Что ты выберешь: быть известным актером (актрисой) или быть успешным писателем (писательницей)?";
+"Would you rather always have to whisper or always have to shout?" = "Что ты выберешь: всегда шептать или всегда кричать?";
+"Would you rather have the power to be invisible or the power to read minds?" = "Что ты выберешь: невидимость или способность читать мысли?";
+"Would you rather have the ability to see 10 minutes into the future or 150 years into the future?" = "Что ты выберешь: способность видеть будущее на 10 минут вперёд или на 150 лет вперёд?";
+"Would you rather never have to wait in line again or never have to do chores again?" = "Что ты выберешь: чтобы тебе никогда больше не нужно было стоять в очередях или никогда не делать домашние дела?";
+"Would you rather have a personal chef or a personal masseuse?" = "Что ты выберешь: иметь личного шеф-повара или личного массажиста?";
+"Would you rather have the ability to teleport anywhere or have the ability to time travel?" = "Что ты выберешь: способость телепортироваться куда хочешь или способность путешествовать во времени?";
+"Would you rather take your dream job with a terrible wage, or become a millionaire but hate your job?" = "Что ты выберешь: работу твоей мечты с маленькой зарплатой или зарабатывать миллионы, но ненавидеть свою работу?";
+"Would you rather have the power of super strength or the power of super speed?" = "Что ты выберешь: суперсилу или суперскорость?";
+"Would you rather have a pet dinosaur or a pet dragon?" = "Что ты выберешь: домашнего питомца - динозавра или домашнего питомца - дракона?";
+"Would you rather delete all social media or move cities?" = "Что ты выберешь: удалить все свои соцсети или переехать в другой город?";
+"Would you rather live in a world where it always snows or a world where it never stops raining?" = "Что ты выберешь: жить в мире где всегда идёт снег или в мире где всегда идёт дождь?";
+"Would you rather have unlimited free travel for life or unlimited free meals for life?" = "Что ты выберешь: неограниченное количество бесплатных путешествий или чтобы вся еда всегда была для тебя бесплатной?";
+"Would you rather be able to control the weather or control people's emotions?" = "Что ты выберешь: способность контролировать погоду или контролировать эмоции людей?";
+"Would you rather know the way you die or the date of your death?" = "Что ты выберешь: знать как ты умрёшь или дату своей смерти?";
+"Would you rather live in a treehouse or in an underground bunker?" = "Что ты выберешь: жить в доме на дереве или жить в подземном бункере?";
+"Would you rather have a personal robot or a personal assistant?" = "Что ты выберешь: иметь личного робота или личного асистента?";
+"Would you rather be able to speak to your past self or your future self?" = "Что ты выберешь: способность общаться с собой в прошлом или с собой в будущем?";
+"Would you rather live in a world where everyone can read minds or a world where everyone can fly?" = "Что ты выберешь: жить в мире где все могут читать мысли друг друга или где все могут летать?";
+"Would you rather have a personal library with every book ever written or a personal art collection with every famous painting?" = "Что ты выберешь: иметь личную библиотеку со всеми когда-либо написанными книгами или личную коллекцию всех известных картин?";
+"Would you rather live in a world where it's always day or a world where it's always night?" = "Что ты выберешь: жить в мире где всегда день или в мире где всегда ночь?";
+"Would you rather have a personal stylist or a personal trainer?" = "Что ты выберешь: личного стилиста или личного тренера?";
+"Would you rather have the ability to speak with the dead or the ability to see the future?" = "Что ты выберешь: способность говорить с мёртвыми или способность видеть будущее?";
+"Would you rather always have to wear a superhero costume or a formal suit/dress?" = "Что ты выберешь: чтобы тебе всегда нужно было носить костюм супергероя или официальный костюм/платье?";
+"Would you rather have the ability to control electronics or control the elements (fire, water, earth, air)?" = "Что ты выберешь: способность управлять электроникой или способность управлять стихиями (огонь, вода, земля, воздух)?";
+"Would you rather be able to teleport to any place on Earth or travel to any planet in the universe?" = "Что ты выберешь: способность перемещаться в любое место на Земле или на любую планету во вселенной?";
+"Would you rather permanently change your hair or permanently change your face shape?" = "Что ты выберешь: навсегда изменить свои волосы или навсегда изменить форму лица?";
+"Would you rather have the ability to time travel and change the past or see into the future but not be able to change it?" = "Что ты выберешь: способность путешествовать во времени и менять прошлое или видеть будущее, но не иметь возможности его поменять?";
+"Would you rather lose your driver’s license for 2 years or lose at ever game you play for 2 years?" = "Что ты выберешь: потерять (без возможности восстановить) свои автомобильные права на 2 года или проигрывать в каждой игре в которую играешь в течении 2 лет?";
+"Would you rather be able to control gravity or control time?" = "Что ты выберешь: способность контролировать гравитацию или контролировать время?";
+"Would you rather have the power to transform into any animal or have the power to communicate with animals?" = "Что ты выберешь: способность превращаться в любое животное или способность общаться с животными?";
+"Would you rather be able to breathe underwater or have the ability to walk on water?" = "Что ты выберешь: способность дышать под водой или ходить по воде?";
+"Would you rather be able to speak to aliens or speak to ghosts?" = "Что ты выберешь: способность общаться с инопланетянами или с привидениями?";
+"Would you rather live in a world without technology or a world without art?" = "Что ты выберешь: жить в мире без технологий или в мире без искусства?";
+"Would you rather have the ability to talk to your pet or have your pet be able to talk back to you?" = "Что ты выберешь: способность говорить со своими питомцами или чтобы твои питомцы могли говорить с тобой?";
+"Would you rather always have to wear mismatched socks or always have to wear shoes on the wrong feet?" = "Что ты выберешь: всегда носить непарные носки или всегда носить обувь не на той ноге (правую на левой и левую на правой)?";
+"Would you rather have the power to control dreams or control nightmares?" = "Что ты выберешь: способность управлять обычными снами или управлять кошмарами?";
+"Would you rather live on a tropical island, or live amongst a wood forest?" = "Что ты выберешь: жить на тропическом острове или жить в лесу?";
+"Would you rather discover you were adopted or find out your family belongs to a secret cult?" = "Что ты выберешь: узнать что тебя усыновили (удочерили) или узнать что твоя семья является частью секретного культа?";
+"Would you rather have access to your partner’s search history or have unlimited access to their credit card?" = "Что ты выберешь: всегда иметь доступ к поисковой истории своего партнера или неограниченный доступ к их кредитке?";
+"Would you rather have the power to heal others or the power to bring inanimate objects to life?" = "Что ты выберешь: способность исцелять других или способность оживлять неодушевленные предметы?";
+"Would you rather be the only one who has magic powers in the world or be the person without magic powers in the magic world?" = "Что ты выберешь: быть единственным человеком в мире, обладающим магическими способностями, или быть человеком без магических способностей в магическом мире?";
+"Would you rather be forced to answer 200 personal questions or do stand up comedy in front of a full audience?" = "Что ты выберешь: отвечать на 200 личных вопросов или выступать как комик перед полным залом?";
+"Would you rather go out to dinner every night or go out to the movies every night?" = "Что ты выберешь: ужинать в ресторанах или кафе каждый день или каждый вечер ходить в кино?";
+"Would you rather have your partner know everything you think, or your mum?" = "Что ты выберешь: чтобы твой партнер знал всё что ты думаешь или чтобы это знала твоя мама?";
+"Would you rather be extraordinary and unknown or ordinary and famous?" = "Что ты выберешь: быть особенным и неизвестным человеком или обычным и известным?";
+"Would you rather live in a cold or a hot climate?" = "Что ты выберешь: жить в холодном или жарком климате?";
+"Would you rather have bright blue skin or be invisible?" = "Что ты выберешь: иметь синюю кожу или быть невидимым?";
+"Would you rather be born 300 years ago or 300 years in the future?" = "Что ты выберешь: родиться 300 лет назад или через 300 лет в будущем?";
+"Would you rather forget how to read or forget how to speak?" = "Что ты выберешь: забыть как читать или забыть как разговаривать?";
+"Would you rather shave your head or have you face painted like a clown 24/7 for a month?" = "Что ты выберешь: сбрить все свои волосы под ноль или в течение месяца ходить 24/7 с лицом раскрашенным как у клоуна?";
