@@ -1279,7 +1279,7 @@
     },
     {
         "id": 3004,
-        "text": "What are three qualities or characteristics that you value most in a partner?",
+        "text": "Do you want to have kids? Why or why not?",
         "category": "Couples",
         "isFavorite": false
     },
@@ -1339,7 +1339,7 @@
     },
     {
         "id": 3014,
-        "text": "What is your favorite aspect of our relationship, and why does it hold significance for you?",
+        "text": "What does marriage mean to you?",
         "category": "Couples",
         "isFavorite": false
     },
@@ -1405,7 +1405,7 @@
     },
     {
         "id": 3025,
-        "text": "What is one thing you appreciate or admire about my personality that you haven't told me before?",
+        "text": "If you were having relationship troubles, would you ever go see a relationship counselor?",
         "category": "Couples",
         "isFavorite": false
     },
@@ -1453,7 +1453,7 @@
     },
     {
         "id": 3033,
-        "text": "If you could make a significant impact or difference in the world, what cause or issue would you focus on, and how can we contribute together?",
+        "text": "Is jealousy healthy in a relationship?",
         "category": "Couples",
         "isFavorite": false
     },
@@ -1471,13 +1471,13 @@
     },
     {
         "id": 3036,
-        "text": "What are some specific skills or knowledge you would like to acquire in order to achieve your life goals, and how can I assist you in that journey?",
+        "text": "What's something that you wish I would ask you about more often?",
         "category": "Couples",
         "isFavorite": false
     },
     {
         "id": 3037,
-        "text": "What is one thing you've always wanted to try or experience with me, but haven't had the chance to yet?",
+        "text": "How many hugs do you need each day?",
         "category": "Couples",
         "isFavorite": false
     },
@@ -1495,7 +1495,7 @@
     },
     {
         "id": 3040,
-        "text": "What are your thoughts on personal fulfillment and finding meaning in life, and how can we explore and cultivate it together?",
+        "text": "When did you know you loved me?",
         "category": "Couples",
         "isFavorite": false
     },
@@ -1555,7 +1555,7 @@
     },
     {
         "id": 3050,
-        "text": "What is one unique activity or experience you'd love us to try together that you think would be incredibly fun and memorable?",
+        "text": "Could you date some who doesn't share your political views?",
         "category": "Couples",
         "isFavorite": false
     },
@@ -1567,13 +1567,115 @@
     },
     {
         "id": 3052,
-        "text": "What are some non-negotiable values or principles you hold when it comes to making important life decisions, and how can we align our goals accordingly?",
+        "text": "What are some non-negotiable values or principles you hold when it comes to making important life decisions?",
         "category": "Couples",
         "isFavorite": false
     },
     {
         "id": 3053,
         "text": "What is one skill or talent you possess that you think would be fun to teach me, and how can we turn it into a bonding activity?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3054,
+        "text": "Make three true “we” statements each. For instance, “We are both in this room feeling…”",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3055,
+        "text": "Do you think people are made for each other?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3056,
+        "text": "What is one thing you've always wanted to try or experience with me, but haven't had the chance to yet?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3057,
+        "text": "Were you nervous during our first kiss?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3058,
+        "text": "What is the most important lesson to teach a child?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3059,
+        "text": "What is your favorite aspect of our relationship, and why does it hold significance for you?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3060,
+        "text": "Is there anything about our relationship that feels totally unique to us?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3061,
+        "text": "How do you feel about big proposals?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3062,
+        "text": "Why do you think your past relationships haven't worked out?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3063,
+        "text": "Which one of these objects reminds you most of me: an umbrella, light bulb, cell phone, loaf of bread, or pencil. Why?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3064,
+        "text": "If you could make a significant impact or difference in the world, what cause or issue would you focus on, and how can we contribute together?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3065,
+        "text": "What’s one thing in our relationship that used to bother you, but you’ve since grown to accept?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3066,
+        "text": "Do you consider me your best friend?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3067,
+        "text": "Which fictional couple reminds you of us?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3068,
+        "text": "What is a present that you have always wanted?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3069,
+        "text": "Would you consider cooking together as spending quality time?",
+        "category": "Couples",
+        "isFavorite": false
+    },
+    {
+        "id": 3070,
+        "text": "Do you feel comfortable sharing your problems with me?",
         "category": "Couples",
         "isFavorite": false
     },
