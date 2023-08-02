@@ -28,4 +28,7 @@ Tired of awkward silences? Simply ask away! AskAway – your new secret weapon t
 ---
 ### Contact Info:
 ✉️ By email: saramutina@gmail.com
+
 ✈️ Telegram: @saramutina
+
+Copyright (c) 2023 Ekaterina Saramutina
